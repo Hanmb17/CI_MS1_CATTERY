@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;600;700&display=swap');
+
+/* setting my site variabke such as font and colour */
+:root {
+    --primary-color:#2E266D;
+    --highligh-color:#E61F93;
+    
+
+}
+
+body {
+    background-color: #fafafa;
+}
