@@ -5,8 +5,7 @@
 :root {
     --primary-color:#2E266D;
     --highlight-color:#E61F93;
-    
-
+    --white-color: #fafafa;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Urbanist', sans-serif;
@@ -103,4 +102,26 @@ body {
   border-radius: 10%;
   padding: .25rem, .5rem;
 
+}
+
+/* Footer Styling */
+
+footer {
+  background-color: var(--primary-color);
+  padding: 1rem;
+}
+
+.social-media-icons li {
+  display: inline-block;
+  font-size: 25px;
+  padding: 0rem .5rem;
+  
+}
+.social-media-icons a {
+  color: var(--white-color) 
+}
+
+.copyright {
+  color: var(--white-color);
+  font-style: italic;
 }
