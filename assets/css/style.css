@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;600;700&display=swap');
 
 /* setting my site variabke such as font and colour */
@@ -10,7 +11,14 @@
 body {
     background-color: #fafafa;
 }
-/* Nav Bar Styling */
+/* Nav Bar Styling */#nav-list .nav-link {
+  color: var(--primary-color);
+  border-style: solid;  
+}
+.nav-item { 
+  align-self: self-end;
+}
+
 /* Navbar toggle icon styling - hamburger menu */
 .navbar-toggler {
     width:35px;
