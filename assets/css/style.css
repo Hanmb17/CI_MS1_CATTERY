@@ -131,3 +131,24 @@ footer {
     flex-direction: column;
   }
 }
+ /* testimonial section */
+.circle-image {
+  background: url(../images/pexels-maksim-goncharenok-9929612.jpg) no-repeat center;
+  background-size:150%;
+  border-radius: 50%;
+  width: 200px;
+  aspect-ratio: 1/1; 
+  overflow: hidden;
+}
+
+.quote {
+  font-size: xx-large;
+  color: var(--highlight-color);
+  opacity: 40%;
+  width: auto;
+}
+
+.testimonial p {
+  max-width: 300px;
+}
+
