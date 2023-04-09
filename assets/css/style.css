@@ -30,6 +30,7 @@ body {
     padding: 0;
     margin: 0;
     transition-timing-function: ease-in-out;
+    z-index: 3;
 }
 .toggler-checkbox {
     width: 100%;
@@ -41,6 +42,9 @@ body {
     z-index: 99;
     opacity:0%;
 }
+.line-1, .line-3 {
+  z-index: 98;
+}
 .toggler-icon {
     height: 5px;
     width: 100%;
@@ -49,11 +53,15 @@ body {
     border-radius: 5px;
     margin: 5px 0;
   }
+
+ 
     /* Animation for Toggle menu icon on hover */
   .navbar-toggler:hover .line-2 {
     background-color: var(--highlight-color);
     transform: translateX(10px);
     transition: .5s;
+    
+    
   }
   /* Animation for Toggle menu icon on click */
   .navbar-toggler input[type="checkbox"]:checked ~ .line-1 {
@@ -64,6 +72,7 @@ body {
     
   }
   .navbar-toggler input[type="checkbox"]:checked ~ .line-2 {
+    background-color: var(--primary-color);
     display: none;
   }
   .navbar-toggler input[type="checkbox"]:checked ~ .line-3 {
@@ -71,7 +80,9 @@ body {
     transform: translate(3px, -5px) rotate(-45deg);
     transform-origin: .5 .5;
     transition-duration: .5s;
+  
   }
+
  /* hero-image */
  .hero-image{
   height: 70vh;
@@ -151,4 +162,28 @@ footer {
 .testimonial p {
   max-width: 300px;
 }
+ /* media Query Nav Bar */
+ @media screen and (max-width: 992px)  {
+  #nav-list {
+    margin-right: auto;
+    background-color: var(--primary-color);
+    text-align: right;
+    padding: 75px 10px 30px;
+    width: 50%;
+    max-width: 300px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    border-radius: 65% 0 0 35%;
+    z-index: 1;
+  }
+  
+  #nav-list .nav-link {
+    color: #fafafa;
+    border-style: solid;  
+  }
 
+  .nav-item { 
+    align-self: self-end;
+  }
+ }
