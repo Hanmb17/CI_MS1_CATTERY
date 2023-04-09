@@ -11,6 +11,7 @@
     --white-color: #fafafa;
     --overlay-color:#fafafa40;
 }
+/* Fonts for text */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Indie Flower', cursive;
   font-weight: 600;
@@ -25,6 +26,7 @@ p {
   font-family: 'Urbanist', sans-serif;
   font-size: 1.25rem;
 }
+/* Background colour */
 body {
     background-color: #fafafa;
 }
@@ -162,6 +164,9 @@ body {
   letter-spacing: 2px;
  }
 
+ .hero-text p {
+  font-weight: bold;
+ }
 
 /* Footer Styling */
 
@@ -212,6 +217,7 @@ footer {
 }
 
  /* media Query Nav Bar */
+ /* Break point lg for bootstrap 992px */
  @media screen and (max-width: 992px)  {
   #nav-list {
     margin-inline-end: auto;
@@ -226,15 +232,26 @@ footer {
     border-radius: 65% 0 0 35%;
     z-index: 1;
   }
-  
+
   #nav-list .nav-link {
     color: #fafafa;
     border-style: solid;  
   }
-
   .nav-item { 
     align-self: self-end;
   }
+}
+/* media Query */
+ /* Break point md for bootstrap 762px */
+@media screen and (max-width: 762px)  { 
+  .hero-text{
+    text-align: center;
+  }
+  .hero-text h1 {
+    font-size: 2.5rem;
  }
- 
- 
+ .hero-content {
+  position:relative;
+  margin: 1rem;
+}
+}
