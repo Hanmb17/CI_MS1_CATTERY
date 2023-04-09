@@ -4,18 +4,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Indie+Flower&family=Shantell+Sans:ital,wght@0,600;0,700;1,600;1,700&family=Urbanist:wght@300;400;600;700&display=swap');
 
 
-/* setting my site variabke such as font and colour */
+/* setting my site variable such as font and colour */
 :root {
     --primary-color:#2E266D;
     --highlight-color:#DE1D8D;
     --white-color: #fafafa;
     --overlay-color:#fafafa40;
-
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Indie Flower', cursive;
   font-weight: 600;
- 
+
 }
 h1::first-letter {
   font-size: 200%;
@@ -29,7 +28,7 @@ p {
 body {
     background-color: #fafafa;
 }
-
+/* CTA button styling */
 .button-cta {
   display: flex;
   align-items: center;
@@ -43,11 +42,18 @@ body {
   border-radius: 15px;
   align-items: center;
   padding: .25rem .75rem;
+  transition-timing-function: ease-in-out;
+  
 }
 
 .button-cta i {
   margin-left: 0.5rem;
   font-size: 1.5rem;
+}
+
+.button-cta:hover i {
+  transform: rotate(15deg);
+  transition-duration: 3ms;
 }
 
 /* Nav Bar Styling */#nav-list .nav-link {
