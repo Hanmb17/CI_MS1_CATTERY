@@ -236,6 +236,15 @@ footer {
   max-width: 300px;
 }
 
+/* intro section */
+
+.cta-wrapper {
+  background-color:#DE1D8D20;
+  padding: .5em;
+  color: var(--primary-color);
+}
+
+
  /* media Query Nav Bar */
  /* Break point lg for bootstrap 992px */
  @media screen and (max-width: 992px)  {
