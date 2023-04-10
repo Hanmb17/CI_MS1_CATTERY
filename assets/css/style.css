@@ -30,6 +30,10 @@ p {
 body {
     background-color: #fafafa;
 }
+
+.row {
+  
+}
 /* CTA button styling */
 .button-cta {
   display: flex;
@@ -168,6 +172,21 @@ body {
   font-weight: bold;
  }
 
+ /* UPS section */
+
+ 
+.playtime-section {
+ text-align: center;
+ max-width: 500px;
+ min-height: 30vh;
+}
+
+.playtime-section img {
+  transform: rotate(-15deg);
+  transform-origin: center;
+  max-height: 50px;
+  max-width: fit-content;
+}
 /* Footer Styling */
 
 footer {
