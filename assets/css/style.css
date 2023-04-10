@@ -146,7 +146,6 @@ body {
   background-size: cover;
   display: flex;
   margin-top: 81px;
- 
  }
  .hero-content {
   position: relative;
@@ -180,18 +179,14 @@ body {
 
  /* UPS section */
 .usps-section {
- margin: auto;
  text-align: center;
  max-width: 500px;
 }
 
 .usps-section img {
-  transform-origin: center;
   max-height: 80px;
   max-width: 300px;
 }
-
-
 
 /* Footer Styling */
 
