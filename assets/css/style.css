@@ -244,6 +244,29 @@ footer {
   color: var(--primary-color);
 }
 
+/* About Us page */
+/* Timeline line */
+/* Code used form W3 to create timeline line */
+/* The actual timeline (the vertical ruler) */
+.main-timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.main-timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: var(--highlight-color);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin-left: -13px;
+}
+
+
 
  /* media Query Nav Bar */
  /* Break point lg for bootstrap 992px */
