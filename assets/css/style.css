@@ -141,7 +141,7 @@ body {
 
  /* hero-image */
  .hero-image{
-  height: 70vh;
+   height: 70vh;
   background: url(../images/hero-image-cat-.jpg) no-repeat center;
   background-size: cover;
   display: flex;
