@@ -27,7 +27,8 @@ h2 {
   letter-spacing: 2px;
 }
 h2::first-letter, .h2-larger {
-  font-size: 150%;
+  font-size: 175%;
+  font-weight:lighter;
 }
 
 p {
@@ -285,6 +286,14 @@ footer {
   top: 15px;
   border-radius: 50%;
   z-index: 1;
+}
+
+/* Meet the team slider */
+.staff-image{
+  max-width: 250px;
+  aspect-ratio: 1 / 1;
+  align-self: center;
+  margin: 1em auto;
 }
 
 
