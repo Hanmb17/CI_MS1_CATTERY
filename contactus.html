@@ -57,27 +57,29 @@
     <section>
         <div class="row">
             <div class="col-8">
-                <form>
-                    <div class="form-row">
-                      <div class="col">
+                <form class="contact-form">
+                    <div class="row">
+                      <div class="col-md-6">
                         <label for="InputFirstName" class="form-label">First Name</label>
-                        <input type="text" class="form-control" id="InputFirstName" placeholder="First name">
+                        <input type="text" class="form-control" id="InputFirstName" placeholder="First name" required>
                       </div>
-                      <div class="col">
+                      <div class="col-md-6">
                         <label for="InputSurname" class="form-label">Surname</label>
-                        <input type="text" class="form-control" id="InputSurname" placeholder="Surname">
+                        <input type="text" class="form-control" id="InputSurname" placeholder="Surname" required>
                       </div>
-                      <div class="col">
+                      <div class="col-md-6">
                         <label for="InputSurname" class="form-label">Pets Name/s</label>
-                        <input type="text" class="form-control" id="InputSurname" placeholder=" ">
+                        <input type="text" class="form-control" id="InputSurname" placeholder=" " required>
                       </div>
-                      <div class="col">
+                      <div class="col-md-6">
                         <label for="InputPhoneNumber" class="form-label">Phone Number</label>
-                        <input type="tel" class="form-control" id="InputPhoneNumber" placeholder=" ">
+                        <input type="tel" class="form-control" id="InputPhoneNumber" placeholder=" " required>
                       </div>
-                      <div><label for="InputEmail" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="InputEmail" placeholder="name@example.com"></div>
+                      <div class="col-12">
+                        <label for="InputEmail" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="InputEmail" placeholder="name@example.com" required></div>
                     </div>
+
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="" id="Daycare">
                         <label class="form-check-label" for="Daycare">
@@ -96,12 +98,12 @@
                           Overnight Stays
                         </label>
                       </div>
-                      <div class="col">
+                      <div class="col-12">
                         <label for="Enquirytext" class="form-label">Example textarea</label>
                         <textarea class="form-control" id="Enquirytext" rows="3"></textarea>
                       </div>
                       <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="Overnight">
+                        <input class="form-check-input" type="checkbox" value="" id="Overnight" required>
                         <label class="form-check-label" for="Overnight">
                           Overnight Stays
                         </label>
