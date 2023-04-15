@@ -39,7 +39,7 @@ p {
 }
 /* Background colour */
 body {
-    background-color: #fafafa;
+    background-color: var(--white-color);
 }
 
 /* CTA button styling */
@@ -189,6 +189,7 @@ body {
   max-width: 300px;
 }
 
+
 /* Footer Styling */
 
 footer {
@@ -295,6 +296,18 @@ footer {
   align-self: center;
   margin: 1em auto;
 }
+
+
+/* Contact Us Page */
+/* Contact form styling */
+.contact-form {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  max-width: 800px;
+  font-family:'Urbanist', sans-serif;
+}
+
+
 
  /* media Query Nav Bar */
  /* Break point lg for bootstrap 992px */
