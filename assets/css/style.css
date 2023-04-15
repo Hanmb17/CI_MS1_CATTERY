@@ -37,6 +37,12 @@ p {
   font-weight: 600;
   color: var(--primary-color);
 }
+
+a {
+  color: var(--primary-color);
+  font-weight: 600;
+  text-decoration: none;
+  }
 /* Background colour */
 body {
     background-color: var(--white-color);
@@ -305,6 +311,23 @@ footer {
   color: var(--white-color);
   max-width: 800px;
   font-family:'Urbanist', sans-serif;
+  z-index: 2;
+}
+
+.other-ways {
+  max-width: 450px;
+  color: var(--primary-color);
+  flex-direction: unset;
+  font-family: 'urbanist', sans-serif;
+}
+.other-ways-info {
+  flex-direction: unset;
+  font-family: 'urbanist', sans-serif;
+}
+
+.other-ways  i {
+  color: var(--highlight-color);
+  font-size: 20px;
 }
 
 
@@ -348,3 +371,12 @@ footer {
   margin: 1rem;
 }
 }
+
+/* media Query */
+ /* Break point md for bootstrap 762px */
+ @media screen and (min-width: 762px)  { 
+  .other-ways {
+    margin-left: -1.75em;
+    border: 4px solid var(--highlight-color);
+  }
+ }
