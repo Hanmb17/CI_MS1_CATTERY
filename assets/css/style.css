@@ -10,6 +10,7 @@
     --highlight-color:#DE1D8D;
     --white-color: #fafafa;
     --overlay-color:#fafafa40;
+    --border-color: #FF735C;
 }
 /* Fonts for text */
 h1, h2, h3, h4, h5, h6 {
@@ -47,6 +48,12 @@ a {
 body {
     background-color: var(--white-color);
 }
+
+hr {
+border-color: var(--highlight-color);
+border-width: thick;
+}
+
 
 /* CTA button styling */
 .button-cta {
@@ -325,8 +332,8 @@ footer {
 
 .cat-profile-card {
   height: 100%;
+  border-color: var(--border-color);
 }
-
 .cat-portrait-wrapper {
   position: relative;
   aspect-ratio: 1/1;
