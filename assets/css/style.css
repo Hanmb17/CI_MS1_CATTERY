@@ -323,6 +323,9 @@ footer {
 
 /* Gallery Page */
 
+.cat-profile-card {
+  height: 100%;
+}
 
 .cat-portrait-wrapper {
   position: relative;
