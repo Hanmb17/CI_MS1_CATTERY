@@ -303,6 +303,32 @@ footer {
   margin: 1em auto;
 }
 
+/* Services & prices page */
+
+.service-list {
+  list-style-type: none;
+  padding: 0;
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+/* Add Paw icon as bullet point */
+.service-list li::before {
+  content: "\f1b0";
+  font: var(--fa-font-solid);
+  padding: 0 10px 0 0;
+  color: #DE1D8D80;
+}
+
+
+/* Gallery Page */
+.gallery-images {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+ 
+}
+
 
 /* Contact Us Page */
 /* Contact form styling */
