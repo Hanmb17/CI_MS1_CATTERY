@@ -333,6 +333,7 @@ footer {
   font-family: 'Urbanist', sans-serif;
   font-weight: 600;
   color: var(--primary-color);
+  text-align: left;
 }
 /* Add Paw icon as bullet point */
 .service-list li::before {
@@ -345,7 +346,7 @@ footer {
 
 /* Gallery Page */
 
-.cat-profile-card {
+.cat-profile-card, .service-card {
   height: 100%;
   border-color: var(--border-color);
 }
