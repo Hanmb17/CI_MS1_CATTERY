@@ -247,7 +247,7 @@ footer {
 }
  /* testimonial section */
 .circle-image {
-  background: url(../images/pexels-maksim-goncharenok-9929612.jpg) no-repeat center;
+ 
   background-size:150%;
   border-radius: 50%;
   width: 200px;
@@ -255,6 +255,26 @@ footer {
   overflow: hidden;
 }
 
+#alex-fluffy {
+  background: url(../images/Alex-and-fluffy.jpg) no-repeat center;
+  background-size:150%;
+}
+
+#helen-punky {
+  background: url(../images/Helen-and-punky.jpg) no-repeat center;
+  background-size:150%;
+}
+
+#sam-smudge {
+  background: url(../images/Sam-and-smudge.jpg) no-repeat;
+  background-position: 50% 15%;
+  background-size: 130%;
+}
+
+#max-parsley {
+  background: url(../images/Max-and-parsley.jpg) no-repeat center;
+  background-size:150%;
+}
 .quote {
   font-size: xx-large;
   color: var(--highlight-color);
