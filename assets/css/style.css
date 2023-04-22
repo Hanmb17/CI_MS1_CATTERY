@@ -354,6 +354,23 @@ footer {
 
 /* Services & prices page */
 
+.service-card {
+  height: 100%;
+  border-top: 20px solid;
+}
+
+#daycare-card {
+  border-color: var(--highlight-color);
+}
+
+#overnight-card {
+  border-color: var(--border-color);
+}
+
+#homevisit-card {
+  border-color: var(--primary-color);
+}
+
 .service-list {
   list-style-type: none;
   font-family: 'Urbanist', sans-serif;
@@ -376,7 +393,7 @@ footer {
 
 /* Gallery Page */
 
-.cat-profile-card, .service-card {
+.cat-profile-card {
   height: 100%;
   border-color: var(--border-color);
 }
