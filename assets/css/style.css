@@ -69,6 +69,13 @@ border-color: var(--highlight-color);
 border-width: thick;
 }
 
+.blue-background {
+  background-color: var(--primary-color);
+}
+
+.white-text {
+  color: var(--white-color);
+}
 
 /* CTA button styling */
 .button-cta {
