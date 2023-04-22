@@ -73,6 +73,12 @@ border-width: thick;
   background-color: var(--primary-color);
 }
 
+.pink-line {
+text-decoration: underline;
+text-underline-offset: 4px;
+text-decoration-color: #DE1D8D80;
+}
+
 .white-text {
   color: var(--white-color);
 }
