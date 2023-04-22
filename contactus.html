@@ -58,51 +58,51 @@
       <section>
         <div class="row align-content-center justify-content-center align-items-center g-0">
             <div class="col-md-8 mb-sm-4 contact-form">
-                <form class="my-4">
+                <form class="my-4" action="https://formdump.codeinstitute.net" method="POST">
                   <div class="row m-0">
                     <div class="col-md-6 mb-2">
-                        <label for="InputFirstName" class="form-label">First Name</label>
-                        <input type="text" class="form-control form-input" id="InputFirstName" placeholder="First name" required>
+                        <label for="first_name" class="form-label">First Name</label>
+                        <input type="text" class="form-control form-input" id="first_name" name="first_name" placeholder="First name" required>
                     </div>
                     <div class="col-md-6 mb-2">
-                        <label for="InputSurname" class="form-label">Surname</label>
-                        <input type="text" class="form-control form-input" id="InputSurname" placeholder="Surname" required>
+                        <label for="surname" class="form-label">Surname</label>
+                        <input type="text" class="form-control form-input" id="surname" name="surname" placeholder="Surname" required>
                     </div>
                     <div class="col-md-6 mb-2">
-                      <label for="InputSurname" class="form-label">Pets Name/s</label>
-                      <input type="text" class="form-control form-input" id="InputSurname" placeholder=" " required>
+                      <label for="pet_name" class="form-label">Pets Name/s</label>
+                      <input type="text" class="form-control form-input" id="pet_name" name="pet_name"placeholder=" " required>
                     </div>
                     <div class="col-md-6 mb-2">
-                      <label for="InputPhoneNumber" class="form-label">Phone Number</label>
-                      <input type="tel" class="form-control form-input" id="InputPhoneNumber" placeholder=" " required>
+                      <label for="phone_number" class="form-label">Phone Number</label>
+                      <input type="tel" class="form-control form-input" id="phone_number" name="phone_number" placeholder=" " required>
                     </div>
                     <div class="col-12 mb-2">
-                      <label for="InputEmail" class="form-label">Email address</label>
-                      <input type="email" class="form-control form-input" id="InputEmail" placeholder="name@example.com" required>
+                      <label for="email" class="form-label">Email address</label>
+                      <input type="email" class="form-control form-input" id="email" name="email" placeholder="name@example.com" required>
                     </div>
                     <div class="col-12">
                       <div class="form-check">
-                        <input class="form-check-input contact-checkbox" type="checkbox" value="" id="Daycare">
-                        <label class="form-check-label" for="Daycare">
+                        <input class="form-check-input contact-checkbox" type="checkbox" value="Intrested" name="daycare" id="daycare">
+                        <label class="form-check-label" for="daycare">
                             Day Care
                         </label>
                       </div>
                       <div class="form-check">
-                        <input class="form-check-input contact-checkbox" type="checkbox" value="" id="Homevisits">
-                        <label class="form-check-label" for="Homevisits">
+                        <input class="form-check-input contact-checkbox" type="checkbox" value="Intrested"" id="home_visits" name="home_visits">
+                        <label class="form-check-label" for="home_visits">
                            Home Visits
                         </label>
                       </div>
                       <div class="form-check mb-2">
-                        <input class="form-check-input contact-checkbox" type="checkbox" value="" id="Overnight">
-                        <label class="form-check-label" for="Overnight">
+                        <input class="form-check-input contact-checkbox" type="checkbox" value="Intrested" id="overnight" name="overnight">
+                        <label class="form-check-label" for="overnight">
                             Overnight Stays
                         </label>
                       </div>
                     </div>
                     <div class="col-12 mb-2">
-                      <label for="Enquirytext" class="form-label">Example textarea</label>
-                      <textarea class="form-control form-input" id="Enquirytext" rows="3"></textarea>
+                      <label for="enquiry_text" class="form-label">Any Questions?</label>
+                      <textarea class="form-control form-input" id="enquiry_text" name="enquiry_text" rows="3"></textarea>
                     </div>
                     <div class="col-12">
                       <div class="form-check mb-2">
@@ -113,7 +113,7 @@
                     </div>
                     </div>
                     <div class="col-12">
-                      <button type="submit" class="btn btn-primary">Submit</button>
+                      <button type="submit" class="btn button-cta">Submit<i class="fa-solid fa-paw"></i></button>
                     </div>
                   </div>
                 </form>
