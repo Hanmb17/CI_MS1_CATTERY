@@ -83,6 +83,9 @@ text-decoration-color: #DE1D8D80;
   color: var(--white-color);
 }
 
+.paw-divider {
+  max-height: 50px;
+}
 /* CTA button styling */
 .button-cta {
   display: flex;
@@ -472,7 +475,16 @@ footer {
   font-size: 20px;
 }
 
+.contact-checkbox:checked {
+  background-color: var(--border-color);
+  border-color: var(--border-color);
+}
 
+.contact-checkbox:focus {
+  border-color: var(--border-color);
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem #FF735C40;
+}
 
  /* media Query Nav Bar */
  /* Break point lg for bootstrap 992px */
