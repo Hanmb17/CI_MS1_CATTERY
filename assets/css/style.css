@@ -67,6 +67,7 @@ body {
 hr {
 border-color: var(--highlight-color);
 border-width: thick;
+opacity: 50%;
 }
 
 .blue-background {
@@ -76,8 +77,14 @@ border-width: thick;
 .pink-line {
 text-decoration: underline;
 text-underline-offset: 4px;
-text-decoration-color: #DE1D8D80;
+text-decoration-color: var(--highlight-color);
 }
+
+.orange-line {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-color: var(--border-color);
+  }
 
 .white-text {
   color: var(--white-color);
