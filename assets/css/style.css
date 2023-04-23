@@ -469,7 +469,6 @@ footer {
 }
 .other-ways-info {
   flex-direction: unset;
-  font-family: 'urbanist', sans-serif;
 }
 
 .other-ways  i {
@@ -533,8 +532,8 @@ footer {
 }
 
 /* media Query */
- /* Break point md for bootstrap 762px */
- @media screen and (min-width: 762px)  { 
+ /* Break point md for bootstrap 768px */
+ @media screen and (min-width: 768px)  { 
   .other-ways {
     margin-right: -1.75em;
     border: 4px solid var(--border-color);
