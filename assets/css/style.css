@@ -9,7 +9,7 @@
     --primary-color:#2E266D;
     --highlight-color:#DE1D8D;
     --white-color: #fafafa;
-    --overlay-color:#fafafa40;
+    --overlay-color:#fafafab5;
     --border-color: #FF735C;
 }
 /* Fonts for text */
@@ -318,6 +318,13 @@ footer {
 }
 
 /* About Us page */
+.aboutus-image{
+  height: 50vh;
+  background: url(../images/AdobeStock_99375284.jpeg) no-repeat center;
+  background-size: cover;
+  display: flex;
+  margin-top: 81px;
+ }
 /* Timeline line */
 /* Code used form W3 to create timeline line */
 /* The actual timeline (the vertical ruler) */
@@ -549,3 +556,11 @@ footer {
     border-radius: 0.375rem;
   }
  }
+/* Media Query */
+/* For about us image to prevent image getting cut off */
+ @media screen and (min-width:1274px) {
+  .aboutus-image{
+    background-size: contain;
+    background-color: #fff;
+ }
+}
