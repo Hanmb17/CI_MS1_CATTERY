@@ -101,6 +101,33 @@ text-decoration-color: var(--highlight-color);
 .white-text {
   color: var(--white-color);
 }
+.staff-img-wrapper {
+  display: contents;
+}
+.staff-img-display {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 80%;
+    }
+.cat-ears{
+  justify-self: center;
+  z-index: 99;
+  width: 80%;
+  grid-area: 1 / 1 / 1 / 1;
+}
+.staff-img{
+  grid-area: 1 / 1 / 1 / 1;
+  justify-self: center;
+}
+.circle-img-wrapper{
+  border-radius: 50%;
+  overflow: hidden;
+  width: 50%;
+  aspect-ratio: 1/1;
+}
 
 .paw-divider {
   max-height: 50px;
