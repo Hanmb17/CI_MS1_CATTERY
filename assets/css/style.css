@@ -151,10 +151,13 @@ text-decoration-color: var(--highlight-color);
 /* Nav Bar Styling */
 #nav-list .nav-link {
   color: var(--primary-color);
-  border-style: solid;  
 }
 .nav-item { 
   align-self: self-end;
+}
+/* Add different color to nav item when link active */
+.navbar-nav .nav-link.active {
+  border-color: var(--highlight-color);
 }
 
 /* Navbar toggle icon styling - hamburger menu */
