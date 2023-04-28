@@ -433,6 +433,17 @@ padding: 0.5rem;
 transform: rotate(-45deg);
 -webkit-transform: rotate(-45deg);
 }
+/* Remove transition */
+.carousel-item {
+  transition: none;
+}
+/* Code from codepen see readme */
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
 /* Services & prices page */
 
 .service-card {
@@ -674,42 +685,7 @@ transform: rotate(-45deg);
   }
 }
 
-.carousel-inner .carousel-item.active,
-.carousel-inner .carousel-item-next,
-.carousel-inner .carousel-item-prev {
-  display: flex;
-}
 
-/* medium and up screens */
-@media (min-width: 768px) and (max-width:992) {
-
-  .carousel-inner .carousel-item-end.active,
-  .carousel-inner .carousel-item-next {
-    transform: translateX(50%);
-  }
-
-  .carousel-inner .carousel-item-start.active, 
-  .carousel-inner .carousel-item-prev {
-    transform: translateX(calc(-50%));
-  }
-}
-
-
-
-
-@media (min-width: 992px) {
-
-  .carousel-inner .carousel-item-end.active,
-  .carousel-inner .carousel-item-next {
-    transform: translateX(33.3333%);
-  }
-
-  .carousel-inner .carousel-item-start.active, 
-  .carousel-inner .carousel-item-prev {
-    transform: translateX(-33.333%);
-  }
-
-}
 
 .carousel-inner .carousel-item-end,
 .carousel-inner .carousel-item-start { 
