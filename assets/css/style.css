@@ -243,7 +243,7 @@ text-decoration-color: var(--highlight-color);
   margin: 2rem;
 }
 
-.hero-content button {
+.hero-content a {
   position: absolute;
   bottom: 0;
 }
@@ -593,8 +593,11 @@ transform: rotate(-45deg);
   }
 }
 /* media Query */
- /* Break point md for bootstrap 762px */
-@media screen and (max-width: 762px)  { 
+ /* Break point md for bootstrap 768px */
+@media screen and (max-width: 768px)  { 
+  .row {
+    flex-direction: column;
+  }
   .hero-text{
     text-align: center;
   }
@@ -602,7 +605,7 @@ transform: rotate(-45deg);
   position:relative;
   margin: 1rem;
 }
-}
+
 
 /* media Query */
  /* Break point md for bootstrap 768px */
