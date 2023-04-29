@@ -89,7 +89,9 @@ text-decoration-color: var(--highlight-color);
 .white-text {
   color: var(--white-color);
 }
-
+.font-indie {
+  font-family: 'Indie Flower', cursive;
+}
 .staff-img-wrapper {
   display: contents;
 }
@@ -293,6 +295,10 @@ footer {
 }
 .social-media-icons a {
   color: var(--white-color) 
+}
+
+.social-media-icons a:hover {
+  color: #fcc2b9;
 }
 
 .copyright {
