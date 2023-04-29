@@ -579,6 +579,14 @@ transform: rotate(-45deg);
   padding-left: .5rem;
 }
 
+.error-img {
+  max-height: 30vh;
+}
+.small-img {
+  max-width: 280px;
+}
+
+
  /* media Query Nav Bar */
  /* Break point lg for bootstrap 992px */
  @media screen and (max-width: 992px)  {
