@@ -29,7 +29,7 @@ h1::first-letter {
   font-weight: lighter;
 }
 h2 {
-  font-size: clamp(1.75rem, 2.5vw, 2.75rem);
+  font-size: clamp(1.75rem, 2.5vw, 2.25rem);
   letter-spacing: 1.75px;
 }
 h2::first-letter, .h2-larger {
@@ -258,7 +258,6 @@ text-decoration-color: var(--highlight-color);
  /* UPS section */
 .usps-section {
  text-align: center;
- max-width: 500px;
 }
 
 .usps-section img {
