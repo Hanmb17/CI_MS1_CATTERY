@@ -595,9 +595,7 @@ transform: rotate(-45deg);
 /* media Query */
  /* Break point md for bootstrap 768px */
 @media screen and (max-width: 768px)  { 
-  .row {
-    flex-direction: column;
-  }
+ 
   .hero-text{
     text-align: center;
   }
@@ -605,7 +603,7 @@ transform: rotate(-45deg);
   position:relative;
   margin: 1rem;
 }
-
+}
 
 /* media Query */
  /* Break point md for bootstrap 768px */
