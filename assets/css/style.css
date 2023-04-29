@@ -13,7 +13,7 @@
     --border-color: #FF735C;
 }
 /* Fonts for text */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 .h-styling {
   font-family: 'Indie Flower', cursive;
   font-weight: 600;
   color: var(--primary-color);
@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: clamp(2rem, 2.5vw, 3rem);
   letter-spacing: 2px;
  }
 h1::first-letter {
@@ -29,7 +29,7 @@ h1::first-letter {
   font-weight: lighter;
 }
 h2 {
-  font-size: 1.75rem;
+  font-size: clamp(1.75rem, 2.5vw, 2.75rem);
   letter-spacing: 1.75px;
 }
 h2::first-letter, .h2-larger {
@@ -50,7 +50,7 @@ h3::first-letter {
 p {
   font-family: 'Urbanist', sans-serif;
   font-size: 1.125rem;
-  font-weight: 600;
+  font-weight: 500;
   color: var(--primary-color);
 }
 
@@ -155,7 +155,7 @@ text-decoration-color: var(--highlight-color);
 .nav-item { 
   align-self: self-end;
 }
-/* Add different color to nav item when link active */
+/* Add different colour to nav item when link active */
 .navbar-nav .nav-link.active {
   border-color: var(--highlight-color);
 }
@@ -245,15 +245,10 @@ text-decoration-color: var(--highlight-color);
   text-align: left;
   top: 10%;
   left: 5%;
-  max-width: 500px;
+  max-width: fit-content;
   padding: 10px;
   background-color: var(--overlay-color);
-  padding: .8rem;
   border-radius: 15px;
- }
- .hero-text h1 {
-  font-size: 3rem;
-  letter-spacing: 2px;
  }
 
  .hero-text p {
@@ -343,9 +338,10 @@ footer {
 /* intro section */
 
 .cta-wrapper {
-  background-color:#DE1D8D20;
-  padding: .5em;
-  color: var(--primary-color);
+  background-color:#fcc2b9;
+  justify-content: space-between;
+  width: fit-content;
+  border-radius: 15px;
 }
 
 /* About Us page */
@@ -608,9 +604,6 @@ transform: rotate(-45deg);
   .hero-text{
     text-align: center;
   }
-  .hero-text h1 {
-    font-size: 2.5rem;
- }
  .hero-content {
   position:relative;
   margin: 1rem;
