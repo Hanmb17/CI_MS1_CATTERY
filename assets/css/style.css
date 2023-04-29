@@ -89,6 +89,7 @@ text-decoration-color: var(--highlight-color);
 .white-text {
   color: var(--white-color);
 }
+
 .staff-img-wrapper {
   display: contents;
 }
@@ -328,6 +329,8 @@ footer {
 .testimonial p {
   max-width: 350px;
 }
+
+
 
 /* intro section */
 
@@ -585,7 +588,7 @@ transform: rotate(-45deg);
   }
 
   #nav-list .nav-link {
-    color: #fafafa;
+    color: var(--white-color);
     border-style: solid;  
   }
   .nav-item { 
@@ -595,7 +598,6 @@ transform: rotate(-45deg);
 /* media Query */
  /* Break point md for bootstrap 768px */
 @media screen and (max-width: 768px)  { 
- 
   .hero-text{
     text-align: center;
   }
@@ -603,11 +605,20 @@ transform: rotate(-45deg);
   position:relative;
   margin: 1rem;
 }
+.testimonial .col:first-child {
+  background-color: #faeae7;
+}
 }
 
 /* media Query */
  /* Break point md for bootstrap 768px */
  @media screen and (min-width: 768px)  { 
+  .testimonial .row:first-child .col:first-child {
+    background-color: #faeae7;  
+  }
+  .testimonial .row:last-child .col:last-child {
+    background-color: #faeae7; 
+  }
   .other-ways {
     margin-right: -1.75em;
     border: 4px solid var(--border-color);
