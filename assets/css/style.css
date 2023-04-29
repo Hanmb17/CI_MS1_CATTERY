@@ -146,6 +146,9 @@ text-decoration-color: var(--highlight-color);
   padding: .25rem .75rem;
   transition-timing-function: ease-in-out; 
 }
+.button-cta:active, .button-cta:focus, .button-cta:hover {
+  background-color: var(--highlight-color);
+}
 
 .button-cta i {
   margin-left: 0.5rem;
