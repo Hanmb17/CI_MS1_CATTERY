@@ -118,6 +118,14 @@ text-decoration-color: var(--highlight-color);
   aspect-ratio: 1/1;
 }
 
+.circle-img-wrapper-sm{
+  border-radius: 50%;
+  overflow: hidden;
+  width: 200px;
+  aspect-ratio: 1/1;
+  border: 2px solid var(--border-color);
+}
+
 .paw-divider {
   max-height: 50px;
 }
@@ -303,35 +311,22 @@ footer {
   overflow: hidden;
 }
 
-#alex-fluffy {
-  background: url(../images/Alex-and-fluffy.jpg) no-repeat center;
-  background-size:150%;
-}
-
-#helen-punky {
-  background: url(../images/Helen-and-punky.jpg) no-repeat center;
-  background-size:150%;
-}
-
-#sam-smudge {
-  background: url(../images/Sam-and-smudge.jpg) no-repeat;
-  background-position: 50% 15%;
-  background-size: 130%;
-}
-
-#max-parsley {
-  background: url(../images/Max-and-parsley.jpg) no-repeat center;
-  background-size:150%;
-}
 .quote {
   font-size: xx-large;
   color: var(--highlight-color);
   opacity: 40%;
   width: auto;
 }
+.blockquote-footer {
+  color: var(--primary-color);
+  font-family: 'Indie Flower', cursive;
+  font-size: clamp(1rem, 1vw, 1.125rem);
+  font-weight: 600;
+  letter-spacing: 1px;
+}
 
 .testimonial p {
-  max-width: 300px;
+  max-width: 350px;
 }
 
 /* intro section */
