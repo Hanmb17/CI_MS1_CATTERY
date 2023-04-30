@@ -4,22 +4,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Indie+Flower&family=Shantell+Sans:ital,wght@0,600;0,700;1,600;1,700&family=Urbanist:wght@300;400;600;700&display=swap');
 
 
-/* setting my site variable such as font and colour */
+/* setting my site variable such colour */
 :root {
-    --primary-color:#2E266D;
-    --highlight-color:#DE1D8D;
+    --primary-color: #2E266D;
+    --secondary-color: #DE1D8D;
+    --light-seconday-colour: rgba(222, 29, 141, 0.5);
     --white-color: #fafafa;
-    --overlay-color:#fafafab5;
-    --border-color: #FF735C;
+    --overlay-color:rgba(250, 250, 250, 0.7);
+    --tertiary-color: #FF735C;
+    --light-tertiary-color:#ffd6d0;
 }
-/* Fonts for text */
+/* Background colour */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--white-color);
+  color: var(--primary-color);
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 500;
+}
+/* Grows content to fit space if min-height is not reached */
+main {
+  flex: 1 0 auto;
+}
+/* Fonts styling for text */
 h1, h2, h3, h4, h5, h6 .h-styling {
   font-family: 'Indie Flower', cursive;
   font-weight: 600;
-  color: var(--primary-color);
-
 }
-
 h1 {
   font-size: clamp(2rem, 2.5vw, 3rem);
   letter-spacing: 2px;
@@ -32,143 +45,73 @@ h2 {
   font-size: clamp(1.75rem, 2.5vw, 2.25rem);
   letter-spacing: 1.75px;
 }
-h2::first-letter, .h2-larger {
+h2::first-letter, .h2-larger, h3::first-letter {
   font-size: 175%;
   font-weight: lighter;
 }
-
 h3 {
   font-size: clamp(1.5rem, 2.5vw, 2rem);
   letter-spacing: 1.5px;
 }
-
-h3::first-letter {
-  font-size: 175%;
-  font-weight: lighter;
-}
-
 p {
-  font-family: 'Urbanist', sans-serif;
-  font-size: 1.125rem;
-  font-weight: 500;
-  color: var(--primary-color);
+  font-size: clamp(1.125rem, 1.5vw, 1.25rem); 
 }
-
 a {
   color: var(--primary-color);
   font-weight: 600;
   text-decoration: none;
   }
-/* Background colour */
-body {
-  background-color: var(--white-color);
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-main {
-  flex: 1 0 auto;
-}
-
+   /* Classes for main styling elements */
 hr {
-border-color: var(--highlight-color);
+border-color: var(--secondary-color);
 border-width: thick;
 opacity: 50%;
 }
-
 .blue-background {
   background-color: var(--primary-color);
 }
-
 .pink-line {
 text-decoration: underline;
 text-underline-offset: 4px;
-text-decoration-color: var(--highlight-color);
+text-decoration-color: var(--secondary-color);
 }
-
 .orange-line {
   text-decoration: underline;
   text-underline-offset: 4px;
-  text-decoration-color: var(--border-color);
+  text-decoration-color: var(--tertiary-color);
   }
-
 .white-text {
   color: var(--white-color);
 }
 .font-indie {
   font-family: 'Indie Flower', cursive;
 }
-.staff-img-wrapper {
-  display: contents;
-}
-.staff-img-display {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    width: 80%;
-    }
-.cat-ears{
-  justify-self: center;
-  z-index: 99;
-  width: 50%;
-  grid-area: 1 / 1 / 1 / 1;
-  filter: invert(28%) sepia(77%) saturate(4515%) hue-rotate(309deg) brightness(87%) contrast(99%);
-}
-.staff-img{
-  grid-area: 1 / 1 / 1 / 1;
-  justify-self: center;
-}
-.circle-img-wrapper{
-  border-radius: 50%;
-  overflow: hidden;
-  width: 50%;
-  aspect-ratio: 1/1;
-}
-
-.circle-img-wrapper-sm{
-  border-radius: 50%;
-  overflow: hidden;
-  width: 200px;
-  aspect-ratio: 1/1;
-  border: 2px solid var(--border-color);
-}
-
-.paw-divider {
-  max-height: 50px;
-}
 /* CTA button styling */
 .button-cta {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Urbanist', sans-serif;
-  font-weight: 600;
-  font-size: 1.125rem;  
-  color: #fafafa;
-  background-color: var(--highlight-color);
+  padding: .25rem .75rem;
   border: none;
   border-radius: 15px;
-  align-items: center;
-  padding: .25rem .75rem;
+  color: var(--white-color);
+  background-color: var(--secondary-color);
+  font-weight: 600;
+  font-size: clamp(1.125rem, 1.5vw, 1.25rem);  
   transition-timing-function: ease-in-out; 
 }
 .button-cta:active, .button-cta:focus, .button-cta:hover {
-  background-color: var(--highlight-color);
+  background-color: var(--secondary-color);
 }
-
 .button-cta i {
   margin-left: 0.5rem;
-  font-size: 1.5rem;
+  font-size: clamp(1.5rem, 1.5vw, 1.75rem);
 }
-
+/* Add animation for on hover */
 .button-cta:hover i {
   transform: rotate(15deg);
   transition-duration: 3ms;
 }
-
 /* Nav Bar Styling */
 #nav-list .nav-link {
   color: var(--primary-color);
@@ -176,163 +119,140 @@ text-decoration-color: var(--highlight-color);
 .nav-item { 
   align-self: self-end;
 }
-/* Add different colour to nav item when link active */
+/* Add different underline colour to nav item when link active */
 .navbar-nav .nav-link.active {
-  border-color: var(--highlight-color);
+  border-color: var(--secondary-color);
 }
-
 /* Navbar toggle icon styling - hamburger menu */
 .navbar-toggler {
-    width:35px;
-    height:35px;
-    position: relative;
-    border: none;
-    padding: 0;
-    margin: 0;
-    transition-timing-function: ease-in-out;
-    z-index: 3;
+  position: relative;
+  width:35px;
+  height:35px;
+  border: none;
+  padding: 0;
+  margin: 0;
+  transition-timing-function: ease-in-out;
+  z-index: 3;
 }
 .toggler-checkbox {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    margin-left: -15px;
-    margin-top: -5px;
-    cursor: pointer;
-    z-index: 99;
-    opacity:0%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin-left: -15px;
+  margin-top: -5px;
+  cursor: pointer;
+  z-index: 99;
+  opacity:0%;
 }
 .line-1, .line-3 {
   z-index: 98;
 }
 .toggler-icon {
-    height: 5px;
-    width: 100%;
-    background-color: var(--primary-color);
-    display: block;
-    border-radius: 5px;
-    margin: 5px 0;
-  }
-
- 
-    /* Animation for Toggle menu icon on hover */
-  .navbar-toggler:hover .line-2 {
-    background-color: var(--highlight-color);
-    transform: translateX(10px);
-    transition: .5s;
-    
-    
-  }
-  /* Animation for Toggle menu icon on click */
-  .navbar-toggler input[type="checkbox"]:checked ~ .line-1 {
-    background-color: var(--highlight-color);
-    transform: translate(3px, 5px) rotate(45deg);
-    transform-origin: center;
-    transition-duration: .5s;
-    
-  }
-  .navbar-toggler input[type="checkbox"]:checked ~ .line-2 {
-    background-color: var(--primary-color);
-    display: none;
-  }
-  .navbar-toggler input[type="checkbox"]:checked ~ .line-3 {
-    background-color: var(--highlight-color);
-    transform: translate(3px, -5px) rotate(-45deg);
-    transform-origin: center;
-    transition-duration: .5s;
-  
-  }
-
- /* hero-image */
- .hero-image{
-  height: 70vh;
-  background: url(../images/hero-image-cat-.jpg) no-repeat center;
-  background-size: cover;
-  display: flex;
-  margin-top: 81px;
- }
- .hero-content {
-  position: relative;
-  margin: 2rem;
-}
-
-.hero-content a {
-  position: absolute;
-  bottom: 0;
-}
- .hero-text {
-  color: var(--primary-color);
   display: block;
-  text-align: left;
-  top: 10%;
-  left: 5%;
-  max-width: fit-content;
-  padding: 10px;
-  background-color: var(--overlay-color);
-  border-radius: 15px;
- }
-
- .hero-text p {
-  font-weight: 700;
- }
-
- /* UPS section */
-.usps-section {
- text-align: center;
-}
-
-.usps-section img {
-  max-height: 80px;
-  max-width: 300px;
-}
-
-
-/* Footer Styling */
-
-footer {
+  width: 100%;
+  height: 5px;
+  border-radius: 5px;
+  margin: 5px 0;
   background-color: var(--primary-color);
-  padding: 1rem;
 }
-
+/* Animation for Toggle menu icon on hover */
+.navbar-toggler:hover .line-2 {
+  background-color: var(--secondary-color);
+  transform: translateX(10px);
+  transition: .5s;   
+}
+/* Animation for Toggle menu icon on click */
+.navbar-toggler input[type="checkbox"]:checked ~ .line-1 {
+  background-color: var(--secondary-color);
+  transform: translate(3px, 5px) rotate(45deg);
+  transform-origin: center;
+  transition-duration: .5s;  
+}
+.navbar-toggler input[type="checkbox"]:checked ~ .line-2 {
+  display: none;
+  background-color: var(--primary-color);
+}
+.navbar-toggler input[type="checkbox"]:checked ~ .line-3 {
+  background-color: var(--secondary-color);
+  transform: translate(3px, -5px) rotate(-45deg);
+  transform-origin: center;
+  transition-duration: .5s;  
+}
+/* Footer Styling */
+footer {
+  padding: 1rem;
+  background-color: var(--primary-color);
+}
 .social-media-icons li {
   display: inline-block;
   font-size: 25px;
-  padding: 0rem .5rem;
-  
+  padding: 0rem .5rem; 
 }
 .social-media-icons a {
   color: var(--white-color) 
 }
-
+/* Add on hoover effect when soicl media links touched */
 .social-media-icons a:hover {
-  color: #fcc2b9;
+  color: var(--light-tertiary-color);
 }
-
 .copyright {
   color: var(--white-color);
   font-style: italic;
 }
-
-@media (max-width: 767.98px) {
-  .row {
-    flex-direction: column;
-  }
+ /* Styling for when hero-section used */
+.hero-content {
+  position: relative;
+  margin: 2rem;
+}
+.hero-content a {
+  position: absolute;
+  bottom: 0;
+}
+.hero-text {
+  display: block;
+  max-width: fit-content;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: var(--overlay-color);
+  text-align: left;
+}
+.hero-text p {
+  font-weight: 700;
+}
+/* Index page styling */
+/* Index page hero image */
+.hero-image{
+  display: flex;
+  height: 70vh;
+  margin-top: 81px;
+  background: url(../images/hero-image-cat-.jpg) no-repeat center;
+  background-size: cover;
+}
+/* UPS section */
+.usps-section-img {
+  max-width: 300px;
+  max-height: 80px;
+}
+/* intro section */
+.cta-wrapper {
+  justify-content: space-between;
+  width: fit-content;
+  border-radius: 15px;
+  background-color:var(--light-tertiary-color);
 }
  /* testimonial section */
-.circle-image {
- 
-  background-size:150%;
-  border-radius: 50%;
-  width: 200px;
-  aspect-ratio: 1/1; 
+ /* Circle wrapper for images */
+ .circle-img-wrapper-sm{
   overflow: hidden;
+  width: 200px;
+  aspect-ratio: 1/1;
+  border: 2px solid var(--tertiary-color);
+  border-radius: 50%; 
 }
-
 .quote {
-  font-size: xx-large;
-  color: var(--highlight-color);
-  opacity: 40%;
   width: auto;
+  color: var(--light-seconday-colour);
+  font-size: xx-large;
 }
 .blockquote-footer {
   color: var(--primary-color);
@@ -341,31 +261,19 @@ footer {
   font-weight: 600;
   letter-spacing: 1px;
 }
-
 .testimonial p {
   max-width: 350px;
 }
-
-
-
-/* intro section */
-
-.cta-wrapper {
-  background-color:#fcc2b9;
-  justify-content: space-between;
-  width: fit-content;
-  border-radius: 15px;
-}
-
-/* About Us page */
+/* About us page styling */
+/* About Us hero image */
 .aboutus-image{
+  display: flex;
   height: 50vh;
+  margin-top: 81px; 
   background: url(../images/group-of-cats.jpeg) no-repeat center;
   background-size: cover;
-  display: flex;
-  margin-top: 81px;
- }
-/* Timeline line */
+}
+/* Timeline styling */
 /* Code used form W3 to create timeline line */
 /* The actual timeline (the vertical ruler) */
 .main-timeline {
@@ -373,31 +281,17 @@ footer {
   max-width: 1200px;
   margin: 0 auto;
 }
-
 /* The actual timeline (the vertical ruler) */
 .main-timeline::after {
   content: '';
   position: absolute;
-  width: 6px;
-  background-color: var(--highlight-color);
   top: 0;
   bottom: 0;
   left: 0;
+  width: 6px;
   margin-left: -12px;
+  background-color: var(--secondary-color);  
 }
-
-/* Container around content */
-.timeline {
-  padding: 10px 30px;
-  position: relative;
-}
-
-.timeline:nth-child(even) .card {
-border-color: var(--border-color);
-border-width: 2px;
-border-style: solid;
-}
-
 /* The circles on the timeline */
 .timeline::after {
   content: '';
@@ -406,42 +300,71 @@ border-style: solid;
   height: 25px;
   left: -21px;
   background-color: var(--white-color);
-  border: 4px solid var(--highlight-color);
+  border: 4px solid var(--secondary-color);
   top: 15px;
   border-radius: 50%;
   z-index: 1;
 }
-
-.timeline-section {
-  background-color: inherit;
-  border-width: 0;
-  overflow: hidden;
+/* Container around content */
+.timeline {
+  padding: 10px 30px;
+  position: relative;
 }
-
-/* Meet the team slider */
-.staff-image{
-  max-width: 250px;
-  aspect-ratio: 1 / 1;
-  align-self: center;
-  margin: 1em auto;
+/* Add orange border to all even timeline sections */
+.timeline:nth-child(even) .card {
+  border: 2px solid var(--tertiary-color);
+}
+.timeline-section {
+  overflow: hidden;
+  border-width: 0;
+  background-color: inherit;
+}
+/* Staff carousel */
+.staff-img-wrapper {
+  display: contents;
+}
+.staff-img-display {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  width: 80%;
+}
+.cat-ears{
+  justify-self: center;
+  width: 50%;
+  grid-area: 1 / 1 / 1 / 1;
+  z-index: 99;
+  filter: invert(28%) sepia(77%) saturate(4515%) hue-rotate(309deg) brightness(87%) contrast(99%);
+}
+.staff-img{
+  justify-self: center;
+  grid-area: 1 / 1 / 1 / 1;
+}
+.circle-img-wrapper{
+  overflow: hidden;
+  width: 50%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;  
 }
 .carousel-arrow {
-  opacity: .75;
   width: 3rem;
+  opacity: .75;
 }
 .left-arrow {
-  border: solid var(--highlight-color);
-  border-width: 0 4px 4px 0;
   display: inline-block;
   padding: 0.5rem;
+  border: solid var(--secondary-color);
+  border-width: 0 4px 4px 0;
   transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
-  }
+}
 .right-arrow {
-border: solid var(--highlight-color);
-border-width: 0 4px 4px 0;
 display: inline-block;
 padding: 0.5rem;
+border: solid var(--secondary-color);
+border-width: 0 4px 4px 0;
 transform: rotate(-45deg);
 -webkit-transform: rotate(-45deg);
 }
@@ -455,34 +378,29 @@ transform: rotate(-45deg);
 .carousel-inner .carousel-item-prev {
   display: flex;
 }
-
-/* Services & prices page */
-
+/* Services & prices page styling */
+/* style service cards */
 .service-card {
   height: 100%;
   border-top: 20px solid;
 }
-
+/* Set the border colours */
 #daycare-card {
-  border-color: var(--highlight-color);
+  border-color: var(--secondary-color);
 }
-
 #overnight-card {
-  border-color: var(--border-color);
+  border-color: var(--tertiary-color);
 }
-
 #homevisit-card {
   border-color: var(--primary-color);
 }
-
+/* style list elements */
 .service-list {
   list-style-type: none;
-  font-family: 'Urbanist', sans-serif;
   font-weight: 600;
   color: var(--primary-color);
   text-align: left;
 }
-
 .service-list > li {
   padding-bottom: .5em;
 }
@@ -491,137 +409,102 @@ transform: rotate(-45deg);
   content: "\f1b0";
   font: var(--fa-font-solid);
   padding: 0 10px 0 0;
-  color: #DE1D8D80;
+  color: var(--light-seconday-colour);
 }
-
-
-/* Gallery Page */
-
+/* Gallery page styling */
+/* Meet the resident cats section */
 .cat-profile-card {
   height: 100%;
-  border-color: var(--border-color);
+  border-color: var(--tertiary-color);
 }
 .cat-portrait-wrapper {
   position: relative;
-  aspect-ratio: 1/1;
   width: 50%;
+  aspect-ratio: 1/1;
 }
-
+/* Background for cat profile imagae */
 .frame {
   position: absolute;
-  background-color: var(--highlight-color);
   bottom:0;
   left:5%;
   width: 90%;
   aspect-ratio: 1 /1 ;
   border-radius: 50%;
+  background-color: var(--secondary-color);
   }
-
 .img {
   position: absolute;
   bottom: 1%;
   left: 6%;
+  overflow:hidden;
   width: 88%;
   aspect-ratio: 1 / 1;
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
-  overflow:hidden;
   z-index: 2;
- 
 }
-
 .img img {
    max-width: 100%;
    height:auto;
 }
-
-
 .gallery-images {
   display: flex;
   flex-wrap: wrap;
   height: 100%;
- 
 }
-
-
-/* Contact Us Page */
+/* Contact us page styling*/
+.paw-divider {
+  max-height: 50px;
+}
 /* Contact form styling */
 .contact-form {
+  max-width: 800px;
   background-color: var(--primary-color);
   color: var(--white-color);
-  max-width: 800px;
-  font-family:'Urbanist', sans-serif;
   font-size: clamp(1rem, 2.5vw, 1.1rem);
   z-index: 2;
 }
-
+/* Overide bootstrap styling */
+.contact-checkbox:checked {
+  background-color: var(--tertiary-color);
+  border-color: var(--tertiary-color);
+}
+.contact-checkbox:focus, .form-input:focus {
+  border-color: var(--tertiary-color);
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(255, 115, 92, 0.25);
+}
+/* Other contact ways styling */
 .other-ways {
+  flex-direction: unset;
   max-width: 450px;
   color: var(--primary-color);
-  flex-direction: unset;
-  font-family: 'urbanist', sans-serif;
   font-size: clamp(1rem, 2.5vw, 1.1rem);
 }
 .other-ways-info {
   flex-direction: unset;
 }
-
 .other-ways  i {
-  color: var(--highlight-color);
+  color: var(--secondary-color);
   font-size: 20px;
 }
-
-.contact-checkbox:checked {
-  background-color: var(--border-color);
-  border-color: var(--border-color);
-}
-
-.contact-checkbox:focus, .form-input:focus {
-  border-color: var(--border-color);
-  outline: 0;
-  box-shadow: 0 0 0 0.25rem #FF735C40;
-}
-
 .opening-times td {
   padding-left: .5rem;
 }
-
+/* 404 page styling */
 .error-img {
   max-height: 30vh;
 }
 .small-img {
   max-width: 280px;
 }
-
-
- /* media Query Nav Bar */
- /* Break point lg for bootstrap 992px */
- @media screen and (max-width: 992px)  {
-  #nav-list {
-    margin-inline-end: auto;
-    background-color: var(--primary-color);
-    text-align: right;
-    padding: 75px 10px 30px;
-    width: 50vw;
-    max-width: 300px;
-    position: fixed;
-    top: 0;
-    right: 0;
-    border-radius: 65% 0 0 35%;
-    z-index: 1;
+/* Media Queries */
+/* Break point md for bootstrap 768px everything below this screen size */
+@media (max-width: 767.99px) {
+  /* overides rows flex direction to columns for smaller screens */
+  .row {
+    flex-direction: column;
   }
-
-  #nav-list .nav-link {
-    color: var(--white-color);
-    border-style: solid;  
-  }
-  .nav-item { 
-    align-self: self-end;
-  }
-}
-/* media Query */
- /* Break point md for bootstrap 768px */
-@media screen and (max-width: 768px)  { 
   .hero-text{
     text-align: center;
   }
@@ -630,36 +513,34 @@ transform: rotate(-45deg);
   margin: 1rem;
 }
 .testimonial .col:first-child {
-  background-color: #faeae7;
+  background-color: var(--light-tertiary-color);
 }
 }
-
 /* media Query */
- /* Break point md for bootstrap 768px */
+ /* Break point md for bootstrap 768px everything above this point*/
  @media screen and (min-width: 768px)  { 
   .testimonial .row:first-child .col:first-child {
-    background-color: #faeae7;  
+    background-color: var(--light-tertiary-color);  
   }
   .testimonial .row:last-child .col:last-child {
-    background-color: #faeae7; 
+    background-color: var(--light-tertiary-color); 
   }
   .other-ways {
     margin-right: -1.75em;
-    border: 4px solid var(--border-color);
+    border: 4px solid var(--tertiary-color);
   }
   .contact-form {
     border-radius: 0.375rem;
   }
+  /* Timeline change of positioning */
   .timeline {
     padding: 10px 0;
   }
-
-  /* Timeline change of positioning */
   .main-timeline::after {
     content: '';
     position: absolute;
     width: 6px;
-    background-color: var(--highlight-color);
+    background-color: var(--secondary-color);
     top: 0;
     bottom: 0;
     left: 50%;
@@ -672,15 +553,39 @@ transform: rotate(-45deg);
     height: 25px;
     left: calc(50% - 10px);
     background-color: var(--white-color);
-    border: 4px solid var(--highlight-color);
+    border: 4px solid var(--secondary-color);
     top: 50px;
     border-radius: 50%;
     z-index: 1;
   }
-  
  }
-
+ /* media Query Nav Bar */
+ /* Break point lg for bootstrap 992px below this point*/
+ @media screen and (max-width: 992px)  {
+  #nav-list {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50vw;
+    max-width: 300px;
+    border-radius: 65% 0 0 35%;
+    padding: 75px 10px 30px;
+    margin-inline-end: auto;
+    background-color: var(--primary-color);
+    text-align: right;
+    z-index: 1;
+  }
+  #nav-list .nav-link {
+    color: var(--white-color);
+    border-style: solid;  
+  }
+  .nav-item { 
+    align-self: self-end;
+  }
+}
+/* Break point lg for bootstrap 992px above this point*/
  @media screen and (min-width: 992px) {
+  /* Cat ears on staff images are now appear on hoover */
   .cat-ears{
     opacity: 0;
   }
@@ -689,11 +594,8 @@ transform: rotate(-45deg);
     transition: opacity .5s ease-in-out;
     -moz-transition: opacity .5s ease-in-out;
     -webkit-transition: opacity .5s ease-in-out;
-
   }
  }
-
-/* Media Query */
 /* For about us image to prevent image getting cut off */
  @media screen and (min-width:1274px) {
   .aboutus-image{
@@ -701,7 +603,3 @@ transform: rotate(-45deg);
     background-color: #fff;
  }
 }
-
-
-
-
