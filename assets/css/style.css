@@ -522,6 +522,10 @@ transform: rotate(-45deg);
   .row {
     flex-direction: column;
   }
+  /*
+  .logo-width {
+    width: fit-content;
+  } */
   .hero-text{
     text-align: center;
   }
@@ -532,9 +536,11 @@ transform: rotate(-45deg);
 .testimonial .col:first-child {
   background-color: var(--light-tertiary-color);
 }
+.other-ways{
+  max-width: 250px;
+}
 .other-ways-info{
   flex-direction: unset;
-  max-width: 250px;
 }
 }
 /* media Query */
