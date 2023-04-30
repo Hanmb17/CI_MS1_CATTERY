@@ -27,6 +27,7 @@ body {
 /* Grows content to fit space if min-height is not reached */
 main {
   flex: 1 0 auto;
+  margin-top: 71px;
 }
 /* Fonts styling for text */
 h1, h2, h3, h4, h5, h6 .h-styling {
@@ -118,6 +119,11 @@ text-decoration-color: var(--secondary-color);
   transform: rotate(15deg);
   transition-duration: 3ms;
 }
+/* Header styling */
+.header-logo {
+  height: 55px;
+  width: fit-content;
+}
 /* Nav Bar Styling */
 #nav-list .nav-link {
   color: var(--primary-color);
@@ -189,6 +195,11 @@ footer {
   padding: 1rem;
   background-color: var(--primary-color);
 }
+.footer-logo {
+  width: fit-content;
+  max-height: 50px;
+  min-height: 40px;
+}
 .social-media-icons li {
   display: inline-block;
   font-size: 25px;
@@ -230,7 +241,6 @@ footer {
 .hero-image{
   display: flex;
   height: 70vh;
-  margin-top: 81px;
   background: url(../images/hero-image-cat-.jpg) no-repeat center;
   background-size: cover;
 }
@@ -275,7 +285,6 @@ footer {
 .aboutus-image{
   display: flex;
   height: 50vh;
-  margin-top: 81px; 
   background: url(../images/group-of-cats.jpeg) no-repeat center;
   background-size: cover;
 }
@@ -458,6 +467,9 @@ transform: rotate(-45deg);
   height: 100%;
 }
 /* Contact us page styling*/
+.map-hr-line{
+  margin-top: -.5rem;
+}
 .paw-divider {
   max-height: 50px;
 }
@@ -519,6 +531,10 @@ transform: rotate(-45deg);
 }
 .testimonial .col:first-child {
   background-color: var(--light-tertiary-color);
+}
+.other-ways-info{
+  flex-direction: unset;
+  max-width: 250px;
 }
 }
 /* media Query */
