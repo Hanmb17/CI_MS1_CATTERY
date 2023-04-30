@@ -61,7 +61,7 @@ a {
   font-weight: 600;
   text-decoration: none;
   }
-   /* Classes for main styling elements */
+ /* Classes for main styling elements */
 hr {
 border-color: var(--secondary-color);
 border-width: thick;
@@ -86,6 +86,9 @@ text-decoration-color: var(--secondary-color);
 .font-indie {
   font-family: 'Indie Flower', cursive;
 }
+.card {
+  color: var(--primary-color);
+}  
 /* CTA button styling */
 .button-cta {
   display: flex;
