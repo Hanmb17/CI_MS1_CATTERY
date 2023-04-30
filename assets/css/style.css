@@ -85,6 +85,7 @@ text-decoration-color: var(--secondary-color);
 }
 .font-indie {
   font-family: 'Indie Flower', cursive;
+  letter-spacing: 1px;
 }
 .card {
   color: var(--primary-color);
@@ -503,7 +504,7 @@ transform: rotate(-45deg);
 }
 /* Media Queries */
 /* Break point md for bootstrap 768px everything below this screen size */
-@media (max-width: 767.99px) {
+@media (max-width: 767.98px) {
   /* overides rows flex direction to columns for smaller screens */
   .row {
     flex-direction: column;
