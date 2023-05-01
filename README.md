@@ -1,108 +1,269 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Kitty Den 
+(Developer: Hannah Bowles)
 
-Welcome Hannah Bowles,
+![Mockup image](-need to add)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+[Live webpage](https://hanmb17.github.io/CI_MS1_CATTERY/)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+Welcome to the website for Kitty Den (a cat care company) it's been designed to provide a user-friendly experience for all visitors, with a responsive layout that adapts seamlessly to any device. The site gives easy access to information on their cat care services, staff profiles, customer testimonials and contact details.
 
-## Gitpod Reminders
+## Table of Content
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+1. [Project Goals](#project-goals)
+    1. [User Goals](#user-goals)
+    2. [Site Owner Goals](#site-owner-goals)
+2. [User Experience](#user-experience)
+    1. [Target Audience](#target-audience)
+    2. [User Requirements and Expectations](#user-requirements-and-expectations)
+    3. [User Stories](#user-stories)
+3. [Design](#design)
+    1. [Design Choices](#design-choices)
+    2. [Colours](#colours)
+    3. [Fonts](#fonts)
+    4. [Structure](#structure)
+    5. [Wireframes](#wireframes)
+4. [Technologies Used](#technologies-used)
+    1. [Languages](#languages)
+    2. [Frameworks and Tools](#frameworks-and-tools)
+5. [Features](#features)
+6. [Testing](#testing)
+    1. [HTML Validation](#HTML-validation)
+    2. [CSS Validation](#CSS-validation)
+    3. [Accessibility](#accessibility)
+    4. [Performance](#performance)
+    5. [Device testing](#performing-tests-on-various-devices)
+    6. [Browser compatibility](#browser-compatibility)
+    7. [Testing user stories](#testing-user-stories)
+8. [Bugs](#bugs)
+9. [Deployment](#deployment)
+10. [Credits](#credits)
+11. [Acknowledgements](#acknowledgements)
 
-`python3 -m http.server`
+## Project Goals
 
-A blue button should appear to click: _Make Public_,
+The main goal is to provide a responsive, fun-looking and informative website for Kitty Den that encourages users to enquire and hire them for cat care services.  
 
-Another blue button should appear to click: _Open Browser_.
+### User Goals
+- A well-displayed and easy-to-navigate website
+- Clear and informative information on what services are on offer
+- Clear pricing information
+- Easy to find contact information
+- Easy to distinguish call-to-action buttons that make sense
+- Find out information about the staff and their experience
+- Find out the location of Kitty Den
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Site Owner Goals
+- Increase in the number of customers
+- Promote the business
+- Provide multiple ways for customers to contact Kitty Den
+- Display clear pricing information
+- Provide a simple breakdown of services on offer
+- Provide information about our staff and our history
 
-A blue button should appear to click: _Make Public_,
+### Developer Goals
 
-Another blue button should appear to click: _Open Browser_.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## User Experience
 
-To log into the Heroku toolbelt CLI:
+### Target Audience
+-Cat owner looking for cat care - overnight, home visits and daycare
+-Cat owner looking for a dedicated cat-only care service
+-Cat owner going away on holiday in need of cat care
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### User Requirements and Expectations
+-A simple and intuitive navigation system
+-Quickly and easily find relevant information
+-Links and functions that work as expected
+-Good presentation and a visually appealing design regardless of screen size
+-An easy way to contact the business
+-Simple content that the user can skim read
+-Accessibility
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### User Stories
 
-------
+#### First-time User 
+1. As a first-time user, I want to know where the Kitty Den is located.
+2. As a first-time user, I want to know their prices.
+3. As a first-time user, I want to know more about their services.
+4. As a first-time user, I want to know what staff are there and what qualifications they have.
+5. As a first-time user, I want easily find out how to contact them.
+6. As a first--time user, I want to see what type of environment the cattery has to offer and if it is suitable, safe and stimulating for my cat.
 
-## Release History
+#### Returning User
+7. As a returning user, I want to know the opening times.
+8. As a returning user, I want to find a phone number to call for a booking.
+9. As a returning user, I want to see the pricing.
+10. As a returning user, I want to know what the services are.
+11. As a returning user, I want to get directions to Kitty Den.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+#### Site Owner 
+12. As the site owner, I want to promote my business online via a company website to increase my online visibility.
+13. As the site owner, I want the users to see the cost of our services and what each service includes.
+14. As the site owner, I want to make it easy for users to contact us via a variety of methods.
+15. As the site owner, I want the users to get introduced to our skilled staff.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+## Design
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### Design Choices
+T
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+### Colours
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+<details><summary>Branding Colour Ideas</summary>
+<img>
+</details>
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Fonts
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+<br> 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Structure
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
 
-## FAQ about the uptime script
+### Wireframes
 
-**Why have you added this script?**
+<
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+## Technologies Used
 
-**How will this affect me?**
+### Languages
+- [HTML](https://en.wikipedia.org/wiki/HTML)
+- [CSS](https://en.wikipedia.org/wiki/CSS)
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+### Frameworks and Tools
+- [Bootstrap v5.3](https://getbootstrap.com/)
+- [Git](https://git-scm.com/)
+- [Github](https://github.com/)
+- [GitPod](https://www.gitpod.io/)
+- [Tiny PNG](https://tinypng.com/)
+- [Balsamiq](https://balsamiq.com/wireframes/)
+- [Google Fonts](https://fonts.google.com/about)
+- [Font Awesome](https://fontawesome.com/search)
+- [Favicon](https://favicon.io/)
+- [W3C validator](https://validator.w3.org/)
+- [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/)
+- [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/)
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+## Features
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
 
-**So….?**
+### Logo and Navigation Bar
+-
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
 
-**Can I opt out?**
+### Hero Image / Landing Page
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+### Company Logo and Strap Line
 
-**Anything more?**
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+### Carousel
 
----
 
-Happy coding!
+### Reviews
+
+
+### Map
+
+
+
+### Footer
+
+
+### About
+
+
+### The Team
+
+
+### Prices 
+
+
+### Get In Touch
+
+### 404
+
+
+## Testing
+
+### HTML Validation
+
+The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with no errors.
+
+
+
+### CSS Validation
+The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website.
+
+
+### Accessibility
+
+
+### Performance 
+Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website. All aspects performing well.
+
+
+
+### Performing tests on various devices 
+
+
+### Browser compatibility
+
+
+### Testing user stories
+
+#### First-time User
+
+#### Returning User
+
+
+
+#### Site Owner 
+
+
+
+## Bugs
+
+
+
+## Deployment
+The website was deployed using GitHub Pages by following these steps:
+1. In the GitHub repository navigate to the Settings tab
+2. On the left-hand menu select Pages
+3. For the source select Branch: master
+4. After the webpage refreshes automatically you will see a ribbon on the top saying: Your site is live at 
+
+You can for fork the repository by following these steps:
+1. Go to the GitHub repository
+2. Click on Fork button in upper right-hand corner
+
+You can clone the repository by following these steps:
+1. Go to the GitHub repository 
+2. Locate the Code button above the list of files and click it 
+3. Select if you prefer to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard
+4. Open Git Bash
+5. Change the current working directory to the one where you want the cloned directory
+6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
+7. Press Enter to create your local clone.
+
+## Credits
+
+
+### Media
+
+
+
+
+### Code 
+
+
+
+### Acknowledgements
+
