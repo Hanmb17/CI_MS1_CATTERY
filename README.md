@@ -111,6 +111,7 @@ I wanted to choose colours for Kitty Den from Megatron as he was the inspiration
 <img src="">
 </details>
 
+### Colours
 Using these colours as a base: 
 I chose an off-white for background to help reduce too much glare.
 
@@ -121,33 +122,36 @@ I chose a bright dark pink to pop against the white background and the dark blue
 
 Feeling I needed another colour, a bright orange that works as a complementary colour to the blue while working well with the pink was chosen. I used [ColorSpace](https://mycolor.space/) to help find the right orange for the pink. Orange is also great for getting the playful nature of the site across.
 
-### Colours
 The colours I chose were:
 
-Blue: primary colour: #2E266D
-Pink: secondary colour: #DE1D8D
-Orange: tertiary colour: #FF735C
-Off White: white colour: #FAFAFA;
-Overlay Off White: rgba(250, 250, 250, 0.7) - They off white colour at 70% opacity
-White: #FFFFFF - Used for contrast against the pink and off-white background
-Opaque Pink: rgba(222, 29, 141, 0.5) - Used for style elements to give a pop of colour
-Light Orange: #ffd6d0 a shade of the orange tertiary colour to brighten areas.
+- Blue: primary colour: #2E266D
+- Pink: secondary colour: #DE1D8D
+- Orange: tertiary colour: #FF735C
+- Off White: white colour: #FAFAFA;
+- Overlay Off White: rgba(250, 250, 250, 0.7) - They off white colour at 70% opacity
+- White: #FFFFFF - Used for contrast against the pink and off-white background
+- Opaque Pink: rgba(222, 29, 141, 0.5) - Used for style elements to give a pop of colour
+- Light Orange: #ffd6d0 a shade of the orange tertiary colour to brighten areas.
 
+I tested multiple options of blue and pink before choosing them and building the full-colour scheme around them to ensure I was happy with the colours and felt I had the best colours to match the site's requirements while remaining accessible. 
+ 
+I used the abode colour wheel and ColorSpace to decide on the final colours and test the contrast of the colours with the Abode's accessibility tools and tested on the live site with the WebAIM Wave tool.
 
 <details><summary>Branding Colour Ideas</summary>
 <img>
 </details>
 
 ### Fonts
-
-
-
+Google Fonts is used to import the 'Indie Flower and Urbanist' font used throughout the website:
+-[Indie Flower]() link font
+-[Urbanist]() link font
 <br> 
-
-
+Indie Flower is predominantly used for headers and areas selected for styling, such as people's names. It helps them stand out and appear different from the other text on the site to make an instant impact as the user lands on the page.
+<br>
+Urbanist is used for the body of the text to make it easy to read and provides a modern look while offering a visual contrast against Indie Flower.
+<br>
+I picked these fonts as Indie Flower offers a playful and personal feel to the site, while Urbanist provides a clean, easy-to-read font with a sleek appearance. Together they work in harmony to portray the playful and professional feel of the company.
 ### Structure
-
-
 
 
 ### Wireframes
