@@ -268,7 +268,7 @@ footer {
 .aboutus-image{
   display: flex;
   height: 50vh;
-  background: url(../images/group-of-cats.jpeg) no-repeat center;
+  background: url(../images/group-of-cats.jpg) no-repeat center;
   background-size: cover;
 }
 /* Timeline styling */
