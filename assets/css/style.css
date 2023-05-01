@@ -380,6 +380,10 @@ transform: rotate(-45deg);
   height: 100%;
   border-top: 20px solid;
 }
+.service-img {
+  width: auto;
+  height: 150px;
+}
 /* Set the border colours */
 #daycare-card {
   border-color: var(--secondary-color);
