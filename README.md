@@ -151,12 +151,39 @@ Indie Flower is predominantly used for headers and areas selected for styling, s
 Urbanist is used for the body of the text to make it easy to read and provides a modern look while offering a visual contrast against Indie Flower.
 <br>
 I picked these fonts as Indie Flower offers a playful and personal feel to the site, while Urbanist provides a clean, easy-to-read font with a sleek appearance. Together they work in harmony to portray the playful and professional feel of the company.
-### Structure
 
+### Structure
+The page's structure is in well-known, user-friendly and visually attractive way. On arriving, the user sees a recognisable navigation bar which on smaller displays is a hamburger menu to the right and the company's logo on the left. The website consists of six separate pages:
+ 
+- Homepage - with the following sections unique selling points, intro to Kitty Den and customer testimonials. 
+- About Us - Includes an intro into what they are, the history and conception of the company in a timeline style and a meet-the-staff carousel.
+- Gallery - With information about the resident cats and images showcasing cats enjoying Kitty Den services
+- Services - Simple and clean pricing cards with service detail included.
+- Contact Us - Map of Kitty Den's location, Contact form and other contact and business information. 
+- 404 - An image depicting the landing on a 404 page with a redirection button to help users find their way back.
 
 ### Wireframes
 
-<
+<details><summary>Home</summary>
+Add Image
+<img>
+</details>
+<details><summary>About Us</summary>
+Add Image
+<img>
+</details>
+<details><summary>Services / Prices</summary>
+Add Image
+<img>
+</details>
+<details><summary>Gallery</summary>
+Add Image
+<img>
+</details>
+<details><summary>Contact Us</summary>
+Add Image
+<img>
+</details>
 
 ## Technologies Used
 
@@ -173,23 +200,38 @@ I picked these fonts as Indie Flower offers a playful and personal feel to the s
 - [Balsamiq](https://balsamiq.com/wireframes/)
 - [Google Fonts](https://fonts.google.com/about)
 - [Font Awesome](https://fontawesome.com/search)
-- [Favicon](https://favicon.io/)
+- [Code Pen]()
+- [Affinity Developer 2 and Photo 2]()
+- [Grammarly]()
 - [W3C validator](https://validator.w3.org/)
 - [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/)
 - [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/)
 
 ## Features
-
+The page consists of six pages and ?? features.
 
 ### Logo and Navigation Bar
--
+- Featured on all six pages
+- The navigation bar is designed to be fully responsive for all screen sizes. It changes to a toggler (hamburger menu) on smaller screens. The following links are included: About Us page, Services & Prices page, Gallery Page and the Contact Us page.
+- Users can easily navigate the site with its user-friendly interface.
+- The link for the page the user is currently on is bold and underlined in pink.
+- On smaller devices, the hamburger menu animates to a pink cross button to easily identify how to close the menu.
+- The left includes Kitty Den's logo, which acts as a home button.
+- User stories covered: 1, 2, 3, 5, 6, 8, 9, 10, 13.
 
+### Call to Action Buttons
+- Each button looks the same and is labelled clearly, allowing the users to know they are a button and where they go.
 
 ### Hero Image / Landing Page
+- Header and tagline to make it clear what Kitty Den is and offers
+- The background image of Megatron in black and white with only his blue eyes and pink nose in colour to not distract too much from the text but reinforce the branding colours.
+- A clear call to action button to direct the users to the services on offer. 
+- User stories covered: 
 
-
-### Company Logo and Strap Line
-
+### Unique selling points 
+- Introduces the user to the benefits of using Kitty Den.
+- Icons are used to visually display the benefits with a header and short sentences to reinforce what Kitty Den offers.
+- User stories covered:
 
 ### Carousel
 
