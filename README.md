@@ -66,18 +66,18 @@ The main goal is to provide a responsive, fun-looking and informative website fo
 ## User Experience
 
 ### Target Audience
--Cat owner looking for cat care - overnight, home visits and daycare
--Cat owner looking for a dedicated cat-only care service
--Cat owner going away on holiday in need of cat care
+- Cat owner looking for cat care - overnight, home visits and daycare
+- Cat owner looking for a dedicated cat-only care service
+- Cat owner going away on holiday in need of cat care
 
 ### User Requirements and Expectations
--A simple and intuitive navigation system
--Quickly and easily find relevant information
--Links and functions that work as expected
--Good presentation and a visually appealing design regardless of screen size
--An easy way to contact the business
--Simple content that the user can skim read
--Accessibility
+- A simple and intuitive navigation system
+- Quickly and easily find relevant information
+- Links and functions that work as expected
+- Good presentation and a visually appealing design regardless of screen size
+- An easy way to contact the business
+- Simple content that the user can skim read
+- Accessibility
 
 ### User Stories
 
@@ -105,10 +105,33 @@ The main goal is to provide a responsive, fun-looking and informative website fo
 ## Design
 
 ### Design Choices
-T
+I wanted to choose colours for Kitty Den from Megatron as he was the inspiration for the website. From a picture of him as a kitten, I picked out his beautiful blue eyes and pink nose as a starting point for the website colours.
+
+<details><summary>Inspiration Image - Megatron as a kitten</summary>
+<img src="">
+</details>
+
+Using these colours as a base: 
+I chose an off-white for background to help reduce too much glare.
+
+I chose dark blue to allow for good contrast as the primary colour.
+Blue is also great for a care company as it gives the feeling of trustworthiness.
+
+I chose a bright dark pink to pop against the white background and the dark blue while giving a playful feel to the site.
+
+Feeling I needed another colour, a bright orange that works as a complementary colour to the blue while working well with the pink was chosen. I used [ColorSpace](https://mycolor.space/) to help find the right orange for the pink. Orange is also great for getting the playful nature of the site across.
 
 ### Colours
+The colours I chose were:
 
+Blue: primary colour: #2E266D
+Pink: secondary colour: #DE1D8D
+Orange: tertiary colour: #FF735C
+Off White: white colour: #FAFAFA;
+Overlay Off White: rgba(250, 250, 250, 0.7) - They off white colour at 70% opacity
+White: #FFFFFF - Used for contrast against the pink and off-white background
+Opaque Pink: rgba(222, 29, 141, 0.5) - Used for style elements to give a pop of colour
+Light Orange: #ffd6d0 a shade of the orange tertiary colour to brighten areas.
 
 
 <details><summary>Branding Colour Ideas</summary>
