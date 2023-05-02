@@ -233,32 +233,86 @@ The page consists of six pages and ?? features.
 - Icons are used to visually display the benefits with a header and short sentences to reinforce what Kitty Den offers.
 - User stories covered:
 
-### Carousel
+### Intro Section
+- Introduces Kitty Den to the user and what they are.
+- The Call to action button allows the user to go straight to the contact us page, helping to make conversions quicker.
+- User stories covered.
 
-
-### Reviews
-
-
-### Map
-
-
+### Testimonials 
+- Featuring four customer reviews that highlight how using the Kitty Den has benefited them and their cat.
+- The profile picture of the reviewer with their cat helps the user relate to them.
+- All services are reviewed, introducing the users to the services.
+- User stories covered: 
 
 ### Footer
+- Featured on all six pages.
+- Logo to reinforce what company page they are on.
+- Kitty Dens Address, lets the iser know where Kitty Den is located.
+- Social Media links 
+- User stories covered: 
 
+### About Us - Kitty Den Description 
+- Introduces the user to Kitty Den and what they are in clear and easy-to-read text.
+- A colourful hero image is used of a group of cats looking happy and playful.
+- On larger screens, there is an image of a cat playing with toys, but it is not visible on mobile view. It helps to create balance on the desktop screen.
+- User stories covered:
 
-### About
+### Kitty Den Timeline
+- The timeline lets the user discover more about Kitty Den and how the business started.
+- Each timeline point content is displayed in separate cards to make them easily distinguishable. 
+- Each card has a title, a tagline and easy-to-read text to help the user follow Kitty Den's story easily.
+- Every card contains an image that relates to the title and text, providing a visual narrative for the user.
+- User stories covered:
 
+### Staff Carousel
+- Users can view the staff members who work at Kitty Den.
+- Shows the user what qualifications, skills and personalities of the staff.
+- The carousel is a user-friendly feature that allows for easy browsing of staff members without taking up excessive vertical space on mobile devices, leading to an enhanced user experience.
+- Having profile images helps users become more familiar with the staff.
+- When viewing the profile on a desktop, cat ears and whiskers will appear when hovering over the image. This playful feature reinforces the company's fun nature. On smaller devices, the ears and whiskers are always visible.
+- User stories covered:
 
-### The Team
+### Our Services and Prices Cards
+- The cards display the available services and their prices to the user.
+- A simple graphic to prevent distracting the user from the services information but allow for visual interest.
+- A call to action button linking to the contact us page allows the user to get to the Contact page quickly.
+- A list of bullet points provides a clear and concise overview of each service's offerings, enabling the user to understand what each service offers.
+- User stories covered:
 
+### Meet The Resident Cats
+- Shows the users what cats will already be at Kitty Den.
+- Gives users an insight as to what type of cats they are used to reassure the user they are used to looking after cats.
+- User stories covered: 
 
-### Prices 
+### Gallery
+- Allows the user to see inside the Kitty Den.
+- Shows the user what they can expect whilst their cat is in Kitty Den's care.
+- Shows the user cats using and enjoying the services.
+- User stories covered:
 
+### Google Map
+- Show the user the location of Kitty Den.
+- Allows the user to get click-through and get directions to Kitty Den.
+- User stories covered:
 
-### Get In Touch
+### Contact Form
+- Allows the user to fill in a contact form to get contacted by Kitty Den for their enquiry
+- The service checkbox list allows the user to pick what services they are interested in
+- User stories covered:
+
+### Business Information and Other Contact Ways
+- Provides the user with more company information
+- Gives the user the address of Kitty Den
+- Shows the user the Kitty Den's main opening times
+- Provides the user with a clickable contact number for Kitty Den to make it more convenient for them to call.
+- Provides the user with a clickable email address to send Kitty Den an email.
+- The purpose of adding this section is to give other contact options for the users.
+- User stories covered:
 
 ### 404
-
+- For a company based 404 page.
+- Includes navigation bar to allow users to navigate where they want.
+- A button for the user to quickly navigate back to the home page.
 
 ## Testing
 
