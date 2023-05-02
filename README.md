@@ -349,9 +349,6 @@ Add Image
 <img>
 </details>
 
-
-
-
 ### CSS Validation
 The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website.
 
@@ -373,7 +370,7 @@ Add Image
 ### Accessibility
 The WAVE WebAIM web accessibility evaluation tool was used to ensure the website met high accessibility standards. All pages pass with 0 errors.
 
-details><summary>index.html</summary>
+<details><summary>index.html</summary>
 Add Image
 <img>
 </details>
@@ -406,7 +403,7 @@ Add Image
 ### Performance 
 Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website pages. All pages perform well.
 
-details><summary>index.html</summary>
+<details><summary>index.html</summary>
 Add Image
 <img>
 </details>
@@ -454,6 +451,13 @@ The website was tested on the following browsers:
 
 
 ### Testing user stories
+
+1. As a first-time user, I want to know where the Kitty Den is located.
+
+| Feature     | Action      |  Expected Result  | Actual Result |
+|    :----:      |    :----:   |   :----:   |  :----: |
+| Map     |                    |            |              |
+| Address On Footer   |         |      |     |
 
 #### First-time User
 
