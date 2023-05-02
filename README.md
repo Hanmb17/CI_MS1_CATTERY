@@ -643,6 +643,14 @@ I fixed this by adding an m-0 or g-0 class to the div element containing the row
 
 On testing the site on my mobile, I noticed the on-hover effect was happening when the Nav Menu was expanded. I looked at ways to prevent this, but overall I felt this animation added nothing to the website, so I removed it.
 
+3. On testing the site on a Google Pixel 7, I noticed when pressing back to return to a previous page the Hamburger menu, which had transformed, was not re-setting like on other devices. 
+
+I decided the best fix was to remove the checkbox, which I was using to create the transformation - as I felt this was likely causing the problem. I then changed the css to respond to an aria-expanded = true and false. On re-testing, this has fixed the issue and has not created any bugs on the other devices.
+
+4. When I tested the carousel, I noticed the transition worked well for only two break points but struggled when I added a third.
+
+As I did not want to compromise on the number of cards displayed for each breakpoint, I decided to remove the transitions after trying to fix and adjust them. 
+
 
 ## Deployment
 The website was deployed using GitHub Pages by following these steps:
