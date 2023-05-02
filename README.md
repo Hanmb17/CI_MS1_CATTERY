@@ -97,7 +97,7 @@ The main goal is to provide a responsive, fun-looking and informative website fo
 11. As a returning user, I want to get directions to Kitty Den.
 
 #### Site Owner 
-12. As the site owner, I want to promote my business online via a company website to increase my online visibility.
+12. As the site owner, I want the urers to learn about our history.
 13. As the site owner, I want the users to see the cost of our services and what each service includes.
 14. As the site owner, I want to make it easy for users to contact us via a variety of methods.
 15. As the site owner, I want the users to get introduced to our skilled staff.
@@ -143,8 +143,8 @@ I used the abode colour wheel and ColorSpace to decide on the final colours and 
 
 ### Fonts
 Google Fonts is used to import the 'Indie Flower and Urbanist' font used throughout the website:
--[Indie Flower]() link font
--[Urbanist]() link font
+- [Indie Flower]() link font
+- [Urbanist]() link font
 <br> 
 Indie Flower is predominantly used for headers and areas selected for styling, such as people's names. It helps them stand out and appear different from the other text on the site to make an instant impact as the user lands on the page.
 <br>
@@ -452,20 +452,184 @@ The website was tested on the following browsers:
 
 ### Testing user stories
 
+### First-time User
+
 1. As a first-time user, I want to know where the Kitty Den is located.
 
 | Feature     | Action      |  Expected Result  | Actual Result |
 |    :----:      |    :----:   |   :----:   |  :----: |
-| Map     |                    |            |              |
-| Address On Footer   |         |      |     |
+| Map     | Navigate to the Contact Us page and locate the Google Map | Locates a map showing the location of Kitty Den  | Works as expected  |
+| Address On Footer  | On any page scroll down to the footer | Find the address of the Kitty Den  |  Works as expected  |
 
-#### First-time User
+<details><summary>Screenshots</summary>
+Add Image
+<img>
+</details>
+
+2. As a first-time user, I want to know their prices.
+
+| Feature     | Action      |  Expected Result  | Actual Result |
+|    :----:      |    :----:   |   :----:   |  :----: |
+| Service / Pricing Cards    | Navigate to the Services / Prices page and locate the cards | Locates the cards detailing the prices of Kitty Den  | Works as expected |
+
+<details><summary>Screenshots</summary>
+Add Image
+<img>
+</details>
+
+3. As a first-time user, I want to know more about their services.
+
+| Feature     | Action      |  Expected Result  | Actual Result |
+|    :----:      |    :----:   |   :----:   |  :----: |
+| Service / Pricing Cards    | Navigate to the Services / Prices page and locate the cards | Locates the cards detailing the services of Kitty Den  | Works as expected |
+
+<details><summary>Screenshots</summary>
+Add Image
+<img>
+</details>
+
+4. As a first-time user, I want to know what staff are there and what qualifications they have.
+
+| Feature     | Action      |  Expected Result  | Actual Result |
+|    :----:      |    :----:   |   :----:   |  :----: |
+| Meet the staff caraousel  | Navigate to the About Us page and scroll to locate the staff carasouel | Locates the staff carasoul  | Works as expected |
+
+<details><summary>Screenshots</summary>
+Add Image
+<img>
+</details>
+
+5. As a first-time user, I want easily find out how to contact them.
+
+| Feature     | Action      |  Expected Result  | Actual Result |
+|    :----:      |    :----:   |   :----:   |  :----: |
+| Contact Us Page  | Navigate to the Contact Us page | Locates the Contact Us page | Works as expected |
+| Contact Form | Navigate to the Contact Us page and locate the contact form | Navigates to the Contact Us page and locate the contact form| Works as expected |
+| Phone Number | Navigate to the Contact Us page and locate the phone number | Navigates to the Contact Us page and locate the phone number| Works as expected |
+| Email address | Navigate to the Contact Us page and locate the email adress | Navigates to the Contact Us page and locate the email address| Works as expected |
+
+<details><summary>Screenshots</summary>
+Add Image
+<img>
+</details>
+
+6. As a first--time user, I want to see what type of environment the cattery has to offer and if it is suitable, safe and stimulating for my cat.
+
+| Feature     | Action      |  Expected Result  | Actual Result |
+|    :----:      |    :----:   |   :----:   |  :----: |
+| Gallery | Navigate to the Gallery page and locate the gallery| Navigates to the Gallery Us page and locate the gallery| Works as expected |
 
 #### Returning User
 
+7. As a returning user, I want to know the opening times.
+
+| Feature     | Action      |  Expected Result  | Actual Result |
+|    :----:      |    :----:   |   :----:   |  :----: |
+| Opening times on Contact Us Page | Navigate to the Contact Us page and locate the opening time| Navigates to the Contact Us page and locates the opening times | Works as expected |
+
+<details><summary>Screenshots</summary>
+Add Image
+<img>
+</details>
+
+8. As a returning user, I want to find a phone number to call for a booking
+
+| Feature     | Action      |  Expected Result  | Actual Result |
+|    :----:      |    :----:   |   :----:   |  :----: |
+| Opening times on Contact Us Page | Navigate to the Contact Us page and locate the phone number | Navigates to the Contact Us page and locates the phone number| Works as expected |
+
+<details><summary>Screenshots</summary>
+Add Image
+<img>
+</details>
+
+8. As a returning user, I want to see the pricing.
+
+| Feature     | Action      |  Expected Result  | Actual Result |
+|    :----:      |    :----:   |   :----:   |  :----: |
+| Service / Pricing Cards    | Navigate to the Services / Prices page and locate the cards | Locates the cards detailing the prices of Kitty Den  | Works as expected |
+
+<details><summary>Screenshots</summary>
+Add Image
+<img>
+</details>
+
+10. As a returning user, I want to know what the services are.
+
+| Feature     | Action      |  Expected Result  | Actual Result |
+|    :----:      |    :----:   |   :----:   |  :----: |
+| Service / Pricing Cards    | Navigate to the Services / Prices page and locate the cards | Locates the cards detailing the services of Kitty Den  | Works as expected |
+
+<details><summary>Screenshots</summary>
+Add Image
+<img>
+</details>
+
+11. As a returning user, I want to get directions to Kitty Den.
+
+| Feature     | Action      |  Expected Result  | Actual Result |
+|    :----:      |    :----:   |   :----:   |  :----: |
+| Google Map  | Navigate to the Contact Us page and locate the map - click through opens up google maps | Locates the map and clicks through to get directions from google maps | Works as expected |
+
+<details><summary>Screenshots</summary>
+Add Image
+<img>
+</details>
+
 #### Site Owner 
 
+12. As the site owner, I want the urers to learn about our history.
 
+| Feature     | Action      |  Expected Result  | Actual Result |
+|    :----:      |    :----:   |   :----:   |  :----: |
+| Timeline | Navigate to the About Us page and locates timeline | Locates to the timeline| Works as expected |
+
+
+<details><summary>Screenshots</summary>
+Add Image
+<img>
+</details>
+
+
+13. As the site owner, I want the users to see the cost of our services and what each service includes.
+
+| Feature     | Action      |  Expected Result  | Actual Result |
+|    :----:      |    :----:   |   :----:   |  :----: |
+| Service / Pricing Cards    | Navigate to the Services / Prices page and locate the cards | Locates the cards detailing the services of Kitty Den  | Works as expected |
+| Service / Pricing Cards    | Navigate to the Services / Prices page and locate the cards | Locates the cards detailing the prices of Kitty Den  | Works as expected |
+
+
+<details><summary>Screenshots</summary>
+Add Image
+<img>
+</details>
+
+
+
+14. As the site owner, I want to make it easy for users to contact us via a variety of methods.
+
+| Feature     | Action      |  Expected Result  | Actual Result |
+|    :----:      |    :----:   |   :----:   |  :----: |
+| Contact Us Page  | Navigate to the Contact Us page | Locates the Contact Us page | Works as expected |
+| Contact Form | Navigate to the Contact Us page and locate the contact form | Navigates to the Contact Us page and locate the contact form| Works as expected |
+| Phone Number | Navigate to the Contact Us page and locate the phone number | Navigates to the Contact Us page and locate the phone number| Works as expected |
+| Email address | Navigate to the Contact Us page and locate the email adress | Navigates to the Contact Us page and locate the email address| Works as expected |
+
+<details><summary>Screenshots</summary>
+Add Image
+<img>
+</details>
+
+15. As the site owner, I want the users to get introduced to our skilled staff.
+
+| Feature     | Action      |  Expected Result  | Actual Result |
+|    :----:      |    :----:   |   :----:   |  :----: |
+| Meet the staff caraousel  | Navigate to the About Us page and scroll to locate the staff carasouel | Locates the staff carasoul  | Works as expected |
+
+<details><summary>Screenshots</summary>
+Add Image
+<img>
+</details>
 
 ## Bugs
 
