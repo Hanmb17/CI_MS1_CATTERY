@@ -633,6 +633,15 @@ Add Image
 
 ## Bugs
 
+1. A horizontal scroll bar appears on desktop and mobile devices.
+
+On testing the site on different devices and through Google developer tools, I noticed a horizontal scroll bar was on occurring. None of my added content appeared to be overflowing, but with Google Developer tools, I spotted that the .row class from Bootstrap was causing this issue.
+
+I fixed this by adding an m-0 or g-0 class to the div element containing the row class providing an easy fix for the issue as it removed the horizontal margins the row was adding. 
+
+2. The animation for the hamburger menu that appears on hover was happening when the Nav Menu was expanded.
+
+On testing the site on my mobile, I noticed the on-hover effect was happening when the Nav Menu was expanded. I looked at ways to prevent this, but overall I felt this animation added nothing to the website, so I removed it.
 
 
 ## Deployment
