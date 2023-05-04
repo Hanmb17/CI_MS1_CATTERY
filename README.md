@@ -347,17 +347,11 @@ The W3C Jigsaw CSS Validation Service was used to validate the CSS of the websit
 
 When using the URL in my index.html, 17 Parse Errors and 8 Value Error: color Invalid RGB function, errors were returned, all linked to Bootstrap and as 422 warnings 6 for my CSS and 418 for Bootstrap.
 
-<details><summary>style.css</summary>
-Add Image
-<img>
-</details>
+style.css - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fhanmb17.github.io%2FCI_MS1_CATTERY%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 When validating pasting my custom CSS, it passed with no errors and flagged some warnings. One for the checkbox border and background colour - as this is styling I have left them as they are. Some for the moz and webkit transitions and transforms used, 1 for variables not checked and one warning for the Google fonts import used.
 
-<details><summary>style.css</summary>
-Add Image
-<img>
-</details>
+style.css - [Results](https://jigsaw.w3.org/css-validator/validator)
 
 
 ### Accessibility
