@@ -65,8 +65,7 @@ The primary goal is to provide a user-friendly experience for all visitors with 
 - Provide a simple and intuitive navigation system, quickly and easily find relevant information, such as services and contact detailss.
 - Create a visually appealing and reponsive design regardless of screen size.
 - Provide simple content that the user can skim read, ensuring accessibility.
-
-
+ 
 ## User Experience
 
 ### Target Audience
@@ -126,7 +125,14 @@ I chose a bright dark pink to pop against the white background and the dark blue
 
 Feeling I needed another colour, a bright orange that works as a complementary colour to the blue while working well with the pink was chosen. I used [ColorSpace](https://mycolor.space/) to help find the right orange for the pink. Orange is also great for getting the playful nature of the site across.
 
-The colours I chose were:
+
+#### Branding Colours
+
+- Blue: primary colour: #2E266D
+- Pink: secondary colour: #DE1D8D
+- Orange: tertiary colour: #FF735C
+
+The colours used on the site
 
 - Blue: primary colour: #2E266D
 - Pink: secondary colour: #DE1D8D
@@ -147,8 +153,8 @@ I used the abode colour wheel and ColorSpace to decide on the final colours and 
 
 ### Fonts
 Google Fonts is used to import the 'Indie Flower and Urbanist' font used throughout the website:
-- [Indie Flower]() link font
-- [Urbanist]() link font
+- [Indie Flower](https://fonts.google.com/specimen/Indie+Flower) 
+- [Urbanist](https://fonts.google.com/specimen/Urbanist)
 <br> 
 Indie Flower is predominantly used for headers and areas selected for styling, such as people's names. It helps them stand out and appear different from the other text on the site to make an instant impact as the user lands on the page.
 <br>
@@ -204,9 +210,9 @@ Add Image
 - [Balsamiq](https://balsamiq.com/wireframes/)
 - [Google Fonts](https://fonts.google.com/about)
 - [Font Awesome](https://fontawesome.com/search)
-- [Code Pen]()
-- [Affinity Developer 2 and Photo 2]()
-- [Grammarly]()
+- [Code Pen](https://codepen.io/)
+- [Affinity Developer 2 and Photo 2](https://affinity.serif.com/en-gb/)
+- [Grammarly](https://www.grammarly.com/)
 - [W3C validator](https://validator.w3.org/)
 - [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/)
 - [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/)
