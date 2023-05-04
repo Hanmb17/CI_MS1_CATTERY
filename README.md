@@ -329,35 +329,18 @@ The page consists of six pages and ?? features.
 ### HTML Validation
 The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with no errors.
 
-<details><summary>index.html</summary>
-Add Image
-<img>
-</details>
+index.html - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fhanmb17.github.io%2FCI_MS1_CATTERY%2Findex.html)
 
-<details><summary>about.html</summary>
-Add Image
-<img>
-</details>
+about.html - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fhanmb17.github.io%2FCI_MS1_CATTERY%2Fabout.html)
 
-<details><summary>services.html</summary>
-Add Image
-<img>
-</details>
+services.html - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fhanmb17.github.io%2FCI_MS1_CATTERY%2Fservices.html)
 
-<details><summary>gallery.html</summary>
-Add Image
-<img>
-</details>
+gallery.html - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fhanmb17.github.io%2FCI_MS1_CATTERY%2Fgallery.html)
 
-<details><summary>contactus.html</summary>
-Add Image
-<img>
-</details>
+contactus.html - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fhanmb17.github.io%2FCI_MS1_CATTERY%2Fcontactus.html)
 
-<details><summary>404.html</summary>
-Add Image
-<img>
-</details>
+404.html - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fhanmb17.github.io%2FCI_MS1_CATTERY%2F404.html)
+
 
 ### CSS Validation
 The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website.
