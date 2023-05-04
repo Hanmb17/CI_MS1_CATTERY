@@ -1,7 +1,7 @@
-# Kitty Den 
+# Kitty Den - A Cat Care Company
 (Developer: Hannah Bowles)
 
-![Mockup image](-need to add)
+![Mockup image](docs/website-across%20-different-devices.png)
 
 [Live webpage](https://hanmb17.github.io/CI_MS1_CATTERY/)
 
@@ -41,7 +41,7 @@ Welcome to the website for Kitty Den (a cat care company) it's been designed to 
 
 ## Project Goals
 
-The main goal is to provide a responsive, fun-looking and informative website for Kitty Den that encourages users to enquire and hire them for cat care services.  
+The primary goal is to provide a user-friendly experience for all visitors with a responsive layout that adapts seamlessly to any device. We offer easy access to information on our cat care services, staff profiles, customer testimonials, and contact details.
 
 ### User Goals
 - A well-displayed and easy-to-navigate website
@@ -61,6 +61,10 @@ The main goal is to provide a responsive, fun-looking and informative website fo
 - Provide information about our staff and our history
 
 ### Developer Goals
+- Creating an excellent user experience for the target audience, cat owners looking for cat care services. 
+- Provide a simple and intuitive navigation system, quickly and easily find relevant information, such as services and contact detailss.
+- Create a visually appealing and reponsive design regardless of screen size.
+- Provide simple content that the user can skim read, ensuring accessibility.
 
 
 ## User Experience
