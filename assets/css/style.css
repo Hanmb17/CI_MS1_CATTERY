@@ -1,10 +1,7 @@
+/* Google Fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Urbanist:wght@300;400;500;600;700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;600;700&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Indie+Flower&family=Shantell+Sans:ital,wght@0,600;0,700;1,600;1,700&family=Urbanist:wght@300;400;600;700&display=swap');
-
-
-/* setting my site variable such colour */
+/* Setting the site variable such colour */
 :root {
     --primary-color: #2E266D;
     --secondary-color: #DE1D8D;
