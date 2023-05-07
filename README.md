@@ -607,13 +607,11 @@ As I did not want to compromise on the number of cards displayed for each breakp
 I discovered this was due to width: fit-content. I had a few different options to correct this, but I chose width: auto was the best option, as the width of the logo is based on the declared height of the logo.
 
 <details><summary>Before fix screenshot</summary>
-![Mockup image](docs/bugs/logo-not-showing-on-firefox.png)
-<img>
+<img src="docs/bugs/logo-not-showing-on-firefox.png">
 </details>
 
 <details><summary>Before fix screenshot</summary>
-![Mockup image](docs/bugs/logo-showing-on-firefox.png)
-<img>
+<img src="docs/bugs/logo-showing-on-firefox.png">
 </details>
 
 ## Deployment
