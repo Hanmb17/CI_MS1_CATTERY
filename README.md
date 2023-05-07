@@ -88,9 +88,9 @@ The primary goal is to provide a user-friendly experience for all visitors with 
 1. As a first-time user, I want to know where the Kitty Den is located.
 2. As a first-time user, I want to know what their customer think about them.
 3. As a first-time user, I want to know more about their services and prices.
-4. As a first-time user, I want to know what staff are there and what qualifications they have.
+4. As a first-time user, I want to know about the staff at Kitty Den.
 5. As a first-time user, I want easily find out how to contact them.
-6. As a first--time user, I want to see what type of environment the cattery has to offer and if it is suitable, safe and stimulating for my cat.
+6. As a first-time user, I want to see what type of environment the cattery has to offer and if it is suitable, safe and stimulating for my cat.
 
 #### Returning User
 7. As a returning user, I want to know the opening times.
@@ -412,6 +412,10 @@ The website was tested on the following browsers:
 | Map     | Navigate to the Contact Us page and locate the Google Map | Locates a map showing the location of Kitty Den  | Works as expected  |
 | Address On Footer  | On any page scroll down to the footer | Find the address of the Kitty Den  |  Works as expected  |
 
+<details><summary>Video of users finding the map</summary>
+<img src="docs/userstory-testing/finding-the-map.gif">
+</details>
+
 <details><summary>Video of users finding the address on the footer</summary>
 <img src="docs/userstory-testing/finding-the-address-on-the-footer.gif">
 </details>
@@ -426,6 +430,8 @@ The website was tested on the following browsers:
 <img src="docs/userstory-testing/finding-the-testimonials.gif">
 </details>
 
+<br>
+
 3. As a first-time user, I want to know more about their services and prices.
 
 | Feature     | Action      |  Expected Result  | Actual Result |
@@ -437,7 +443,9 @@ Add Image
 <img src="docs/userstory-testing/finding-the-price-and-services.gif">
 </details>
 
-4. As a first-time user, I want to know what staff are there and what qualifications they have.
+<br>
+
+4. As a first-time user, I want to know about the staff at Kitty Den.
 
 | Feature     | Action      |  Expected Result  | Actual Result |
 |    :----:      |    :----:   |   :----:   |  :----: |
@@ -446,6 +454,8 @@ Add Image
 <details><summary>Video of users finding the staff carousel</summary>
 <img src="docs/userstory-testing/finding-the-staff.gif">
 </details>
+
+<br>
 
 5. As a first-time user, I want easily find out how to contact them.
 
@@ -456,12 +466,23 @@ Add Image
 | Phone Number | Navigate to the Contact Us page and locate the phone number | Navigates to the Contact Us page and locate the phone number| Works as expected |
 | Email address | Navigate to the Contact Us page and locate the email adress | Navigates to the Contact Us page and locate the email address| Works as expected |
 
-<details><summary>Screenshots</summary>
-Add Image
-<img>
+<details><summary>Video of users finding the contact form</summary>
+<img src="docs/userstory-testing/finding-the-contact-form.gif">
 </details>
 
-6. As a first--time user, I want to see what type of environment the cattery has to offer and if it is suitable, safe and stimulating for my cat.
+<details><summary>Video of users finding the other contact ways</summary>
+<img src="docs/userstory-testing/finding-the-other-contact-ways.gif">
+<br>
+Screenshot of email address
+<img src="docs/userstory-testing/email-address.png">
+<br>
+Screenshot of phone number
+<img src="docs/userstory-testing/phone-number.png">
+</details>
+
+<br>
+
+6. As a first-time user, I want to see what type of environment the cattery has to offer and if it is suitable, safe and stimulating for my cat.
 
 | Feature     | Action      |  Expected Result  | Actual Result |
 |    :----:      |    :----:   |   :----:   |  :----: |
@@ -479,10 +500,14 @@ Add Image
 |    :----:      |    :----:   |   :----:   |  :----: |
 | Opening times on Contact Us Page | Navigate to the Contact Us page and locate the opening time| Navigates to the Contact Us page and locates the opening times | Works as expected |
 
-<details><summary>Screenshots</summary>
-Add Image
-<img>
+<details><summary>Video of users finding the buiness information</summary>
+<img src="docs/userstory-testing/finding-the-other-contact-ways.gif">
+<br>
+Screenshot of opening times
+<img src="docs/userstory-testing/opening-times.png">
 </details>
+
+<br>
 
 8. As a returning user, I want to find a phone number to call for a booking
 
@@ -490,10 +515,14 @@ Add Image
 |    :----:      |    :----:   |   :----:   |  :----: |
 | Opening times on Contact Us Page | Navigate to the Contact Us page and locate the phone number | Navigates to the Contact Us page and locates the phone number| Works as expected |
 
-<details><summary>Screenshots</summary>
-Add Image
-<img>
+<details><summary>Video of users finding the other contact ways</summary>
+<img src="docs/userstory-testing/finding-the-other-contact-ways.gif">
+<br>
+Screenshot of phone number
+<img src="docs/userstory-testing/phone-number.png">
 </details>
+
+<br>
 
 8. As a returning user, I want to see the pricing.
 
@@ -501,9 +530,8 @@ Add Image
 |    :----:      |    :----:   |   :----:   |  :----: |
 | Service / Pricing Cards    | Navigate to the Services / Prices page and locate the cards | Locates the cards detailing the prices of Kitty Den  | Works as expected |
 
-<details><summary>Screenshots</summary>
-Add Image
-<img>
+<details><summary>Video of returning users find the pricing</summary>
+<img src="docs/userstory-testing/finding-the-price-and-services.gif">
 </details>
 
 10. As a returning user, I want to know what the services are.
@@ -512,7 +540,7 @@ Add Image
 |    :----:      |    :----:   |   :----:   |  :----: |
 | Service / Pricing Cards    | Navigate to the Services / Prices page and locate the cards | Locates the cards detailing the services of Kitty Den  | Works as expected |
 
-<details><summary>Video of returning users find the price and service cards</summary>
+<details><summary>Video of returning users find the service cards</summary>
 <img src="docs/userstory-testing/finding-the-price-and-services.gif">
 </details>
 
@@ -522,11 +550,11 @@ Add Image
 |    :----:      |    :----:   |   :----:   |  :----: |
 | Google Map  | Navigate to the Contact Us page and locate the map - click through opens up google maps | Locates the map and clicks through to get directions from google maps | Works as expected |
 
-<details><summary>Screenshots</summary>
-Add Image
-<img>
+<details><summary>Video of users finding the map</summary>
+<img src="docs/userstory-testing/finding-the-map.gif">
 </details>
 
+<br>
 #### Site Owner 
 
 12. As the site owner, I want the urers to learn about our history.
@@ -536,11 +564,11 @@ Add Image
 | Timeline | Navigate to the About Us page and locates timeline | Locates to the timeline| Works as expected |
 
 
-<details><summary>Screenshots</summary>
-Add Image
-<img>
+<details><summary>Video of users finding the timeline</summary>
+<img src="docs/userstory-testing/finding-the-timeline.gif">
 </details>
 
+<br>
 
 13. As the site owner, I want the users to see the cost of our services and what each service includes.
 
@@ -552,7 +580,7 @@ Add Image
 <img src="docs/userstory-testing/finding-the-price-and-services.gif">
 </details>
 
-
+<br>
 
 14. As the site owner, I want to make it easy for users to contact us via a variety of methods.
 
@@ -563,10 +591,21 @@ Add Image
 | Phone Number | Navigate to the Contact Us page and locate the phone number | Navigates to the Contact Us page and locate the phone number| Works as expected |
 | Email address | Navigate to the Contact Us page and locate the email adress | Navigates to the Contact Us page and locate the email address| Works as expected |
 
-<details><summary>Screenshots</summary>
-Add Image
-<img>
+<details><summary>Video of users finding the contact form</summary>
+<img src="docs/userstory-testing/finding-the-contact-form.gif">
 </details>
+
+<details><summary>Video of users finding the other contact ways</summary>
+<img src="docs/userstory-testing/finding-the-other-contact-ways.gif">
+<br>
+Screenshot of email address
+<img src="docs/userstory-testing/email-address.png">
+<br>
+Screenshot of phone number
+<img src="docs/userstory-testing/phone-number.png">
+</details>
+
+<br>
 
 15. As the site owner, I want the users to get introduced to our skilled staff.
 
