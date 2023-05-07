@@ -86,8 +86,8 @@ The primary goal is to provide a user-friendly experience for all visitors with 
 
 #### First-time User 
 1. As a first-time user, I want to know where the Kitty Den is located.
-2. As a first-time user, I want to know their prices.
-3. As a first-time user, I want to know more about their services.
+2. As a first-time user, I want to know what their customer think about them.
+3. As a first-time user, I want to know more about their services and prices.
 4. As a first-time user, I want to know what staff are there and what qualifications they have.
 5. As a first-time user, I want easily find out how to contact them.
 6. As a first--time user, I want to see what type of environment the cattery has to offer and if it is suitable, safe and stimulating for my cat.
@@ -412,31 +412,29 @@ The website was tested on the following browsers:
 | Map     | Navigate to the Contact Us page and locate the Google Map | Locates a map showing the location of Kitty Den  | Works as expected  |
 | Address On Footer  | On any page scroll down to the footer | Find the address of the Kitty Den  |  Works as expected  |
 
-<details><summary>Screenshots</summary>
-Add Image
-<img>
+<details><summary>Video of users finding the address on the footer</summary>
+<img src="docs/userstory-testing/finding-the-address-on-the-footer.gif">
 </details>
 
-2. As a first-time user, I want to know their prices.
+2. As a first-time user, I want to know what their customer think about them.
 
 | Feature     | Action      |  Expected Result  | Actual Result |
 |    :----:      |    :----:   |   :----:   |  :----: |
-| Service / Pricing Cards    | Navigate to the Services / Prices page and locate the cards | Locates the cards detailing the prices of Kitty Den  | Works as expected |
+| Kitty Den timeline | Navigate to About Us page and locate the history timeline | Locates the timeline showing the history of Kitty Den | Works as expected |
 
-<details><summary>Screenshots</summary>
-Add Image
-<img>
+<details><summary>Video of users finding the testomonials</summary>
+<img src="docs/userstory-testing/finding-the-testimonials.gif">
 </details>
 
-3. As a first-time user, I want to know more about their services.
+3. As a first-time user, I want to know more about their services and prices.
 
 | Feature     | Action      |  Expected Result  | Actual Result |
 |    :----:      |    :----:   |   :----:   |  :----: |
 | Service / Pricing Cards    | Navigate to the Services / Prices page and locate the cards | Locates the cards detailing the services of Kitty Den  | Works as expected |
 
-<details><summary>Screenshots</summary>
+<details><summary>Video of users finding the price and service cards</summary>
 Add Image
-<img>
+<img src="docs/userstory-testing/finding-the-price-and-services.gif">
 </details>
 
 4. As a first-time user, I want to know what staff are there and what qualifications they have.
@@ -445,9 +443,8 @@ Add Image
 |    :----:      |    :----:   |   :----:   |  :----: |
 | Meet the staff caraousel  | Navigate to the About Us page and scroll to locate the staff carasouel | Locates the staff carasoul  | Works as expected |
 
-<details><summary>Screenshots</summary>
-Add Image
-<img>
+<details><summary>Video of users finding the staff carousel</summary>
+<img src="docs/userstory-testing/finding-the-staff.gif">
 </details>
 
 5. As a first-time user, I want easily find out how to contact them.
@@ -469,6 +466,10 @@ Add Image
 | Feature     | Action      |  Expected Result  | Actual Result |
 |    :----:      |    :----:   |   :----:   |  :----: |
 | Gallery | Navigate to the Gallery page and locate the gallery| Navigates to the Gallery Us page and locate the gallery| Works as expected |
+
+<details><summary>Video of users finding the gallery</summary>
+<img src="docs/userstory-testing/finding-the-gallery.gif">
+</details>
 
 #### Returning User
 
@@ -511,9 +512,8 @@ Add Image
 |    :----:      |    :----:   |   :----:   |  :----: |
 | Service / Pricing Cards    | Navigate to the Services / Prices page and locate the cards | Locates the cards detailing the services of Kitty Den  | Works as expected |
 
-<details><summary>Screenshots</summary>
-Add Image
-<img>
+<details><summary>Video of returning users find the price and service cards</summary>
+<img src="docs/userstory-testing/finding-the-price-and-services.gif">
 </details>
 
 11. As a returning user, I want to get directions to Kitty Den.
@@ -547,12 +547,9 @@ Add Image
 | Feature     | Action      |  Expected Result  | Actual Result |
 |    :----:      |    :----:   |   :----:   |  :----: |
 | Service / Pricing Cards    | Navigate to the Services / Prices page and locate the cards | Locates the cards detailing the services of Kitty Den  | Works as expected |
-| Service / Pricing Cards    | Navigate to the Services / Prices page and locate the cards | Locates the cards detailing the prices of Kitty Den  | Works as expected |
 
-
-<details><summary>Screenshots</summary>
-Add Image
-<img>
+<details><summary>Video of users find the price and service cards</summary>
+<img src="docs/userstory-testing/finding-the-price-and-services.gif">
 </details>
 
 
@@ -577,9 +574,8 @@ Add Image
 |    :----:      |    :----:   |   :----:   |  :----: |
 | Meet the staff caraousel  | Navigate to the About Us page and scroll to locate the staff carasouel | Locates the staff carasoul  | Works as expected |
 
-<details><summary>Screenshots</summary>
-Add Image
-<img>
+<details><summary>Video of users finding the staff carousel</summary>
+<img src="docs/userstory-testing/finding-the-staff.gif">
 </details>
 
 ## Bugs
@@ -610,7 +606,7 @@ I discovered this was due to width: fit-content. I had a few different options t
 <img src="docs/bugs/logo-not-showing-on-firefox.png">
 </details>
 
-<details><summary>Before fix screenshot</summary>
+<details><summary>After fix screenshot</summary>
 <img src="docs/bugs/logo-showing-on-firefox.png">
 </details>
 
