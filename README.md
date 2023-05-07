@@ -218,9 +218,9 @@ Add Image
 - [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/)
 
 ## Features
-The page consists of six pages and ?? features.
+The page consists of six pages and 16 features.
 
-### Logo and Navigation Bar
+### Logo and Navigation Bar (Header)
 - Featured on all six pages
 - The navigation bar is designed to be fully responsive for all screen sizes. It changes to a toggler (hamburger menu) on smaller screens. The following links are included: About Us page, Services & Prices page, Gallery Page and the Contact Us page.
 - Users can easily navigate the site with its user-friendly interface.
@@ -229,8 +229,7 @@ The page consists of six pages and ?? features.
 - The left includes Kitty Den's logo, which acts as a home button.
 - User stories covered: 1, 2, 3, 5, 6, 8, 9, 10, 13.
 
-### Call to Action Buttons
-- Each button looks the same and is labelled clearly, allowing the users to know they are a button and where they go.
+![Header](docs/features/header.png)
 
 ### Hero Image / Landing Page
 - Header and tagline to make it clear what Kitty Den is and offers
@@ -238,21 +237,29 @@ The page consists of six pages and ?? features.
 - A clear call to action button to direct the users to the services on offer. 
 - User stories covered: 
 
+![Hero image](docs/features/home-hero-image.png)
+
 ### Unique selling points 
 - Introduces the user to the benefits of using Kitty Den.
 - Icons are used to visually display the benefits with a header and short sentences to reinforce what Kitty Den offers.
 - User stories covered:
+
+![Unique selling points](docs/features/usps-section.png)
 
 ### Intro Section
 - Introduces Kitty Den to the user and what they are.
 - The Call to action button allows the user to go straight to the contact us page, helping to make conversions quicker.
 - User stories covered.
 
+![Intro section](docs/features/intro-section.png)
+
 ### Testimonials 
 - Featuring four customer reviews that highlight how using the Kitty Den has benefited them and their cat.
 - The profile picture of the reviewer with their cat helps the user relate to them.
 - All services are reviewed, introducing the users to the services.
 - User stories covered: 
+
+![Testimonail section](docs/features/testimonials.png)
 
 ### Footer
 - Featured on all six pages.
@@ -261,11 +268,15 @@ The page consists of six pages and ?? features.
 - Social Media links 
 - User stories covered: 
 
+![Footer](docs/features/footer.png)
+
 ### About Us - Kitty Den Description 
 - Introduces the user to Kitty Den and what they are in clear and easy-to-read text.
 - A colourful hero image is used of a group of cats looking happy and playful.
 - On larger screens, there is an image of a cat playing with toys, but it is not visible on mobile view. It helps to create balance on the desktop screen.
 - User stories covered:
+
+![About us section](docs/features/about-us-section.png)
 
 ### Kitty Den Timeline
 - The timeline lets the user discover more about Kitty Den and how the business started.
@@ -273,6 +284,8 @@ The page consists of six pages and ?? features.
 - Each card has a title, a tagline and easy-to-read text to help the user follow Kitty Den's story easily.
 - Every card contains an image that relates to the title and text, providing a visual narrative for the user.
 - User stories covered:
+
+![Timeline](docs/features/about-us-section.png)
 
 ### Staff Carousel
 - Users can view the staff members who work at Kitty Den.
@@ -282,6 +295,8 @@ The page consists of six pages and ?? features.
 - When viewing the profile on a desktop, cat ears and whiskers will appear when hovering over the image. This playful feature reinforces the company's fun nature. On smaller devices, the ears and whiskers are always visible.
 - User stories covered:
 
+![Staff carousel](docs/features/staff-carousel.png)
+
 ### Our Services and Prices Cards
 - The cards display the available services and their prices to the user.
 - A simple graphic to prevent distracting the user from the services information but allow for visual interest.
@@ -289,10 +304,14 @@ The page consists of six pages and ?? features.
 - A list of bullet points provides a clear and concise overview of each service's offerings, enabling the user to understand what each service offers.
 - User stories covered:
 
+![Services and prices cards](docs/features/service-and-price-cards.png)
+
 ### Meet The Resident Cats
 - Shows the users what cats will already be at Kitty Den.
 - Gives users an insight as to what type of cats they are used to reassure the user they are used to looking after cats.
 - User stories covered: 
+
+![Resident cats](docs/features/resident-cats.png)
 
 ### Gallery
 - Allows the user to see inside the Kitty Den.
@@ -300,15 +319,21 @@ The page consists of six pages and ?? features.
 - Shows the user cats using and enjoying the services.
 - User stories covered:
 
+![Gallery](docs/features/gallery.png)
+
 ### Google Map
 - Show the user the location of Kitty Den.
 - Allows the user to get click-through and get directions to Kitty Den.
 - User stories covered:
 
+![Google maps](docs/features/map.png)
+
 ### Contact Form
 - Allows the user to fill in a contact form to get contacted by Kitty Den for their enquiry
 - The service checkbox list allows the user to pick what services they are interested in
 - User stories covered:
+
+![Contact form](docs/features/contact-form.jpg)
 
 ### Business Information and Other Contact Ways
 - Provides the user with more company information
@@ -319,10 +344,14 @@ The page consists of six pages and ?? features.
 - The purpose of adding this section is to give other contact options for the users.
 - User stories covered:
 
+![Business information](docs/features/buiness-info-section.jpg)
+
 ### 404
 - For a company based 404 page.
 - Includes navigation bar to allow users to navigate where they want.
 - A button for the user to quickly navigate back to the home page.
+
+![404 page](docs/features/404-image.png)
 
 ## Testing
 
