@@ -372,35 +372,17 @@ contactus.html - [Results](https://wave.webaim.org/report#/https://hanmb17.githu
 ### Performance 
 Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website pages. All pages perform well.
 
-<details><summary>index.html</summary>
-Add Image
-<img>
-</details>
+index.html - [Results](https://pagespeed.web.dev/analysis/https-hanmb17-github-io-CI_MS1_CATTERY-index-html/9gto311wmm?form_factor=desktop)
 
-<details><summary>about.html</summary>
-Add Image
-<img>
-</details>
+about.html - [Results](https://pagespeed.web.dev/analysis/https-hanmb17-github-io-CI_MS1_CATTERY-about-html/n0jtyrecrt?form_factor=desktop)
 
-<details><summary>services.html</summary>
-Add Image
-<img>
-</details>
+services.html - [Results](https://pagespeed.web.dev/analysis/https-hanmb17-github-io-CI_MS1_CATTERY-services-html/75rhhakrec?form_factor=desktop)
 
-<details><summary>gallery.html</summary>
-Add Image
-<img>
-</details>
+gallery.html - [Results](https://pagespeed.web.dev/analysis/https-hanmb17-github-io-CI_MS1_CATTERY-gallery-html/3ed5r8n46h?form_factor=desktop)
 
-<details><summary>contactus.html</summary>
-Add Image
-<img>
-</details>
+contactus.html - [Results](https://pagespeed.web.dev/analysis/https-hanmb17-github-io-CI_MS1_CATTERY-contactus-html/fmlhc4rsrn?form_factor=desktop)
 
-<details><summary>404.html</summary>
-Add Image
-<img>
-</details>
+404.html - [Results](https://pagespeed.web.dev/analysis/https-hanmb17-github-io-CI_MS1_CATTERY-404-html/99ounqxrci?form_factor=desktop)
 
 ### Performing tests on various devices
 The website was tested on the following devices:
