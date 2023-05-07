@@ -602,6 +602,19 @@ I decided the best fix was to remove the checkbox, which I was using to create t
 
 As I did not want to compromise on the number of cards displayed for each breakpoint, I decided to remove the transitions after trying to fix and adjust them. 
 
+5. When I tested the site on Firefox, the logo was not displaying.
+
+I discovered this was due to width: fit-content. I had a few different options to correct this, but I chose width: auto was the best option, as the width of the logo is based on the declared height of the logo.
+
+<details><summary>Before fix screenshot</summary>
+![Mockup image](docs/bugs/logo-not-showing-on-firefox.png)
+<img>
+</details>
+
+<details><summary>Before fix screenshot</summary>
+![Mockup image](docs/bugs/logo-showing-on-firefox.png)
+<img>
+</details>
 
 ## Deployment
 The website was deployed using GitHub Pages by following these steps:
