@@ -654,13 +654,37 @@ On testing the site on different devices and through Google developer tools, I n
 
 I fixed this by adding an m-0 or g-0 class to the div element containing the row class providing an easy fix for the issue as it removed the horizontal margins the row was adding. 
 
+<details><summary>Before fix screenshot</summary>
+<img src="docs/bugs/scroll-bar-on-mobile.jpg">
+</details>
+
+<details><summary>After fix screenshot</summary>
+<img src="docs/bugs/scroll-bar-removed-on-mobile.png">
+</details>
+
 2. The animation for the hamburger menu that appears on hover was happening when the Nav Menu was expanded.
 
 On testing the site on my mobile, I noticed the on-hover effect was happening when the Nav Menu was expanded. I looked at ways to prevent this, but overall I felt this animation added nothing to the website, so I removed it.
 
+<details><summary>Before fix screenshot</summary>
+<img src="docs/bugs/annimated-on-hover-on-mobile.png">
+</details>
+
+<details><summary>After fix screenshot</summary>
+<img src="docs/bugs/no-animation-on-hover-state.png">
+</details>
+
 3. On testing the site on a Google Pixel 7, I noticed when pressing back to return to a previous page the Hamburger menu, which had transformed, was not re-setting like on other devices. 
 
 I decided the best fix was to remove the checkbox, which I was using to create the transformation - as I felt this was likely causing the problem. I then changed the css to respond to an aria-expanded = true and false. On re-testing, this has fixed the issue and has not created any bugs on the other devices.
+
+<details><summary>Before fix screenshot</summary>
+<img src="docs/bugs/pixel-7-back-button-issue.png">
+</details>
+
+<details><summary>After fix screenshot</summary>
+<img src="docs/bugs/pixel-7-issue-fixed.png">
+</details>
 
 4. When I tested the carousel, I noticed the transition worked well for only two break points but struggled when I added a third.
 
