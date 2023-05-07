@@ -22,6 +22,7 @@ body {
   font-weight: 500;
 }
 /* Grows content to fit space if min-height is not reached */
+/* Code taken from Blog post on Dev by by Leonid Fenko, see README */
 main {
   flex: 1 0 auto;
   margin-top: 71px;
