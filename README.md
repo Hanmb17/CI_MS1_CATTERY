@@ -357,35 +357,17 @@ style.css - [Results](https://jigsaw.w3.org/css-validator/validator)
 ### Accessibility
 The WAVE WebAIM web accessibility evaluation tool was used to ensure the website met high accessibility standards. All pages pass with 0 errors.
 
-<details><summary>index.html</summary>
-Add Image
-<img>
-</details>
+index.html - [Results](https://wave.webaim.org/report#/https://hanmb17.github.io/CI_MS1_CATTERY/index.html)
 
-<details><summary>about.html</summary>
-Add Image
-<img>
-</details>
+about.html - [Results](https://wave.webaim.org/report#/https://hanmb17.github.io/CI_MS1_CATTERY/about.html)
 
-<details><summary>services.html</summary>
-Add Image
-<img>
-</details>
+services.html - [Results](https://wave.webaim.org/report#/https://hanmb17.github.io/CI_MS1_CATTERY/services.html)
 
-<details><summary>gallery.html</summary>
-Add Image
-<img>
-</details>
+gallery.html - [Results](https://wave.webaim.org/report#/https://hanmb17.github.io/CI_MS1_CATTERY/gallery.html)
 
-<details><summary>contactus.html</summary>
-Add Image
-<img>
-</details>
+contactus.html - [Results](https://wave.webaim.org/report#/https://hanmb17.github.io/CI_MS1_CATTERY/contactus.html)
 
-<details><summary>404.html</summary>
-Add Image
-<img>
-</details>
+404.html - [Results](https://wave.webaim.org/report#/https://hanmb17.github.io/CI_MS1_CATTERY/404.html)
 
 ### Performance 
 Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website pages. All pages perform well.
