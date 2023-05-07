@@ -403,7 +403,7 @@ The website was tested on the following browsers:
 
 ### Testing user stories
 
-### First-time User
+#### First-time User
 
 1. As a first-time user, I want to know where the Kitty Den is located.
 
@@ -439,7 +439,6 @@ The website was tested on the following browsers:
 | Service / Pricing Cards    | Navigate to the Services / Prices page and locate the cards | Locates the cards detailing the services of Kitty Den  | Works as expected |
 
 <details><summary>Video of users finding the price and service cards</summary>
-Add Image
 <img src="docs/userstory-testing/finding-the-price-and-services.gif">
 </details>
 
@@ -555,6 +554,7 @@ Screenshot of phone number
 </details>
 
 <br>
+
 #### Site Owner 
 
 12. As the site owner, I want the urers to learn about our history.
