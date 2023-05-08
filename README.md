@@ -1,7 +1,7 @@
 # Kitty Den - A Cat Care Company
 (Developer: Hannah Bowles)
 
-![Mockup image](docs/website-across%20-different-devices.png)
+![Mockup image](docs/website-across-different-devices.png)
 
 [Live webpage](https://hanmb17.github.io/CI_MS1_CATTERY/)
 
@@ -111,7 +111,7 @@ The primary goal is to provide a user-friendly experience for all visitors with 
 I wanted to choose colours for Kitty Den from Megatron as he was the inspiration for the website. From a picture of him as a kitten, I picked out his beautiful blue eyes and pink nose as a starting point for the website colours.
 
 <details><summary>Inspiration Image - Megatron as a kitten</summary>
-<img src="">
+<img src="docs/design/megatron-inspiration-picture.JPG">
 </details>
 
 ### Colours
@@ -132,6 +132,10 @@ Feeling I needed another colour, a bright orange that works as a complementary c
 - Pink: secondary colour: #DE1D8D
 - Orange: tertiary colour: #FF735C
 
+<details><summary>Branding Colour Ideas</summary>
+<img src="docs/design/main-brand-colours.png">
+</details>
+
 The colours used on the site
 
 - Blue: primary colour: #2E266D
@@ -144,12 +148,36 @@ The colours used on the site
 - Light Orange: #ffd6d0 a shade of the orange tertiary colour to brighten areas.
 
 I tested multiple options of blue and pink before choosing them and building the full-colour scheme around them to ensure I was happy with the colours and felt I had the best colours to match the site's requirements while remaining accessible. 
- 
+
 I used the abode colour wheel and ColorSpace to decide on the final colours and test the contrast of the colours with the Abode's accessibility tools and tested on the live site with the WebAIM Wave tool.
 
-<details><summary>Branding Colour Ideas</summary>
-<img>
+<details><summary>Branding Colour Website Colours</summary>
+<img src="docs/design/website-colours.png">
 </details>
+ 
+
+#### Colour Contrast Tests
+
+<details><summary>Blue font on off white background</summary>
+<img src="docs/design/blue-font-contrast-test.png">
+</details>
+
+<details><summary>Off white font on blue background</summary>
+<img src="docs/design/white-font-contrast-test.png">
+</details>
+
+<details><summary>Blue font on light orange background</summary>
+<img src="docs/design/light-orange-blue-font-contrast.png">
+</details>
+
+<details><summary>Off white font on pink background - failed test</summary>
+<img src="docs/design/white-font-on-pink-fail-contrast.png">
+</details>
+
+<details><summary>white font on pink background - passed test</summary>
+<img src="docs/design/white-font-pink-pass-contrast.png">
+</details>
+
 
 ### Fonts
 Google Fonts is used to import the 'Indie Flower and Urbanist' font used throughout the website:
@@ -175,24 +203,19 @@ The page's structure is in well-known, user-friendly and visually attractive way
 ### Wireframes
 
 <details><summary>Home</summary>
-Add Image
-<img>
+<img src="docs/wireframes/home-page-wireframe.png">
 </details>
 <details><summary>About Us</summary>
-Add Image
-<img>
+<img src="docs/wireframes/about-us-wireframe.png">
 </details>
 <details><summary>Services / Prices</summary>
-Add Image
-<img>
+<img src="docs/wireframes/services-wireframe.png">
 </details>
 <details><summary>Gallery</summary>
-Add Image
-<img>
+<img src="docs/wireframes/gallery-wireframe.png">
 </details>
 <details><summary>Contact Us</summary>
-Add Image
-<img>
+<img src="docs/wireframes/contact-us-wireframe.png">
 </details>
 
 ## Technologies Used
