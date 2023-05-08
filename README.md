@@ -812,8 +812,8 @@ Credits for code snippets used in order of appearance
 
 I would like to take the opportunity to thank;
 
-My mentor, Mo Shami, for his support and excellant guidance throughtout this project.
-Iris Smok from Code Institute my Cohort Faciliator for her wonderful advice during our weekly stand ups.
-My partner, Pete Williams how has kept me fed, watered and helped with testing.
-My work colleages at EWE Buildiing Plastics, who tested the site and offered great feedback
-My cat, megatron who inspired me to make this site and for his company while making this site.
+- My mentor, Mo Shami, for his support and excellant guidance throughtout this project.
+- Iris Smok from Code Institute my Cohort Faciliator for her wonderful advice during our weekly stand ups.
+- My partner, Pete Williams how has kept me fed, watered and helped with testing.
+- My work colleages at EWE Buildiing Plastics, who tested the site and offered great feedback
+- My cat, megatron who inspired me to make this site and for his company while making this site.
