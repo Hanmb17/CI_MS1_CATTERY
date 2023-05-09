@@ -800,9 +800,9 @@ Credits for code snippets used in order of appearance
 - The HTML code for the [Navbar with toggler](https://getbootstrap.com/docs/5.3/components/navbar/) was taken from Boostrap v5.3 documentation snippet - Hamburger button spans modified.
 - The HTML code for the [Timeline](https://mdbootstrap.com/docs/standard/extended/timeline/) was from MD Bootstrap - altered to fit the sits reponsive requirements.
 - The CSS code for the [Timeline line an timeline circles](https://www.w3schools.com/howto/howto_css_timeline.asp) was taken from W3Schools and modified as needed.
-- The HTML code for the [carousel](https://getbootstrap.com/docs/5.3/components/carousel/) was taken from v snippet.
+- The HTML code for the [carousel](https://getbootstrap.com/docs/5.3/components/carousel/) was taken from Boostrap v5.3 documentation.
 - The Javascript code for the [reponsive multi item carousel](https://www.codeply.com/p/0CWffz76Q9) was taken from a Codeply by Skelly.
-- The HTML for the [cards base](https://getbootstrap.com/docs/5.3/components/card/) was taken from https://getbootstrap.com/docs/5.3/components/card/.
+- The HTML for the [cards base](https://getbootstrap.com/docs/5.3/components/card/) was taken from Boostrap v5.3 documentation.
 - The Form dump was created using Code institutes form dump from Love Running project in the CSS learning module.
 - 404 page was build using description on [GitHub Docs](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site)
 - The CSS for making the webpage [strech to min height of 100vh](https://dev.to/fenok/stretching-body-to-full-viewport-height-the-missing-way-2ghd) was from a blog post on DEV by Leonid Fenko.
