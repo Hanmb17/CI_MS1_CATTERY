@@ -22,7 +22,7 @@ body {
   font-weight: 500;
 }
 /* Grows content to fit space if min-height is not reached */
-/* Code taken from Blog post on Dev by by Leonid Fenko, see README */
+/* Code taken from blog post on Dev by by Leonid Fenko, see README */
 main {
   flex: 1 0 auto;
   margin-top: 71px;
@@ -402,7 +402,7 @@ transform: rotate(-45deg);
 .service-list > li {
   padding-bottom: .5em;
 }
-/* Add Paw icon as bullet point */
+/* Add paw icon as bullet point */
 .service-list li::before {
   content: "\f1b0";
   font: var(--fa-font-solid);
@@ -431,7 +431,7 @@ transform: rotate(-45deg);
   border-radius: 50%;
   background-color: var(--secondary-color);
   }
-.img {
+.img-background {
   position: absolute;
   bottom: 1%;
   left: 6%;
@@ -442,7 +442,7 @@ transform: rotate(-45deg);
   border-bottom-right-radius: 50%;
   z-index: 2;
 }
-.img img {
+.img-background img {
    max-width: 100%;
    height:auto;
 }
