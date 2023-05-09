@@ -250,7 +250,7 @@ The page consists of six pages and 16 features.
 - The link for the page the user is currently on is bold and underlined in pink.
 - On smaller devices, the hamburger menu animates to a pink cross button to easily identify how to close the menu.
 - The left includes Kitty Den's logo, which acts as a home button.
-- User stories covered: 1, 2, 3, 5, 6, 8, 9, 10, 13.
+- User stories covered: 3, 5, 6, 7, 8, 9, 10, 13, 14.
 
 ![Header](docs/features/header.png)
 
@@ -258,21 +258,21 @@ The page consists of six pages and 16 features.
 - Header and tagline to make it clear what Kitty Den is and offers
 - The background image of Megatron in black and white with only his blue eyes and pink nose in colour to not distract too much from the text but reinforce the branding colours.
 - A clear call to action button to direct the users to the services on offer. 
-- User stories covered: 
+- User stories covered: 4, 14.
 
 ![Hero image](docs/features/home-hero-image.png)
 
 ### Unique selling points 
 - Introduces the user to the benefits of using Kitty Den.
 - Icons are used to visually display the benefits with a header and short sentences to reinforce what Kitty Den offers.
-- User stories covered:
+- User story covered: 6.
 
 ![Unique selling points](docs/features/usps-section.png)
 
 ### Intro Section
 - Introduces Kitty Den to the user and what they are.
 - The Call to action button allows the user to go straight to the contact us page, helping to make conversions quicker.
-- User stories covered.
+- User stories covered: 4, 6, 14.
 
 ![Intro section](docs/features/intro-section.png)
 
@@ -280,7 +280,7 @@ The page consists of six pages and 16 features.
 - Featuring four customer reviews that highlight how using the Kitty Den has benefited them and their cat.
 - The profile picture of the reviewer with their cat helps the user relate to them.
 - All services are reviewed, introducing the users to the services.
-- User stories covered: 
+- User stories covered: 2, 6.
 
 ![Testimonail section](docs/features/testimonials.png)
 
@@ -289,7 +289,7 @@ The page consists of six pages and 16 features.
 - Logo to reinforce what company page they are on.
 - Kitty Dens Address, lets the iser know where Kitty Den is located.
 - Social Media links 
-- User stories covered: 
+- User story covered: 1.
 
 ![Footer](docs/features/footer.png)
 
@@ -297,7 +297,7 @@ The page consists of six pages and 16 features.
 - Introduces the user to Kitty Den and what they are in clear and easy-to-read text.
 - A colourful hero image is used of a group of cats looking happy and playful.
 - On larger screens, there is an image of a cat playing with toys, but it is not visible on mobile view. It helps to create balance on the desktop screen.
-- User stories covered:
+- User story covered: 6.
 
 ![About us section](docs/features/about-us-section.png)
 
@@ -306,7 +306,7 @@ The page consists of six pages and 16 features.
 - Each timeline point content is displayed in separate cards to make them easily distinguishable. 
 - Each card has a title, a tagline and easy-to-read text to help the user follow Kitty Den's story easily.
 - Every card contains an image that relates to the title and text, providing a visual narrative for the user.
-- User stories covered:
+- User stories covered: 12, 6.
 
 ![Timeline](docs/features/about-us-section.png)
 
@@ -316,7 +316,7 @@ The page consists of six pages and 16 features.
 - The carousel is a user-friendly feature that allows for easy browsing of staff members without taking up excessive vertical space on mobile devices, leading to an enhanced user experience.
 - Having profile images helps users become more familiar with the staff.
 - When viewing the profile on a desktop, cat ears and whiskers will appear when hovering over the image. This playful feature reinforces the company's fun nature. On smaller devices, the ears and whiskers are always visible.
-- User stories covered:
+- User stories covered: 4, 15.
 
 ![Staff carousel](docs/features/staff-carousel.png)
 
@@ -325,14 +325,14 @@ The page consists of six pages and 16 features.
 - A simple graphic to prevent distracting the user from the services information but allow for visual interest.
 - A call to action button linking to the contact us page allows the user to get to the Contact page quickly.
 - A list of bullet points provides a clear and concise overview of each service's offerings, enabling the user to understand what each service offers.
-- User stories covered:
+- User stories covered: 3, 9, 10, 13.
 
 ![Services and prices cards](docs/features/service-and-price-cards.png)
 
 ### Meet The Resident Cats
 - Shows the users what cats will already be at Kitty Den.
 - Gives users an insight as to what type of cats they are used to reassure the user they are used to looking after cats.
-- User stories covered: 
+- User story covered: 6
 
 ![Resident cats](docs/features/resident-cats.png)
 
@@ -340,21 +340,21 @@ The page consists of six pages and 16 features.
 - Allows the user to see inside the Kitty Den.
 - Shows the user what they can expect whilst their cat is in Kitty Den's care.
 - Shows the user cats using and enjoying the services.
-- User stories covered:
+- User story covered: 6
 
 ![Gallery](docs/features/gallery.png)
 
 ### Google Map
 - Show the user the location of Kitty Den.
 - Allows the user to get click-through and get directions to Kitty Den.
-- User stories covered:
+- User stories covered: 1, 11.
 
 ![Google maps](docs/features/map.png)
 
 ### Contact Form
 - Allows the user to fill in a contact form to get contacted by Kitty Den for their enquiry
 - The service checkbox list allows the user to pick what services they are interested in
-- User stories covered:
+- User stories covered: 5, 14.
 
 ![Contact form](docs/features/contact-form.jpg)
 
@@ -365,7 +365,7 @@ The page consists of six pages and 16 features.
 - Provides the user with a clickable contact number for Kitty Den to make it more convenient for them to call.
 - Provides the user with a clickable email address to send Kitty Den an email.
 - The purpose of adding this section is to give other contact options for the users.
-- User stories covered:
+- User stories covered: 5, 7, 8, 14.
 
 ![Business information](docs/features/buiness-info-section.jpg)
 
@@ -748,7 +748,6 @@ You can clone the repository by following these steps:
 7. Press Enter to create your local clone
 
 ## Credits
-
 
 ### Media
 
