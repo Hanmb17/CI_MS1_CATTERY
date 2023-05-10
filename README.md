@@ -5,7 +5,7 @@
 
 [Live webpage](https://hanmb17.github.io/CI_MS1_CATTERY/)
 
-Welcome to the website for Kitty Den (a cat care company) it's been designed to provide a user-friendly experience for all visitors, with a responsive layout that adapts seamlessly to any device. The site gives easy access to information on their cat care services, staff profiles, customer testimonials and contact details.
+Welcome to the website for Kitty Den (a cat care company). It's been designed to provide a user-friendly experience for all visitors, with a responsive layout that adapts seamlessly to any device. The site delivers easy access to information on Kitty Den's cat care services, staff profiles, customer testimonials and contact details.
 
 ## Table of Content
 
@@ -44,27 +44,27 @@ Welcome to the website for Kitty Den (a cat care company) it's been designed to 
 The primary goal is to provide a user-friendly experience for all visitors with a responsive layout that adapts seamlessly to any device. We offer easy access to information on our cat care services, staff profiles, customer testimonials, and contact details.
 
 ### User Goals
-- A well-displayed and easy-to-navigate website
-- Clear and informative information on what services are on offer
-- Clear pricing information
-- Easy to find contact information
-- Easy to distinguish call-to-action buttons that make sense
-- Find out information about the staff and their experience
-- Find out the location of Kitty Den
+- A well-displayed and easy-to-navigate website.
+- Clear and informative information on what services are on offer.
+- Clear pricing information.
+- Easy to find contact information.
+- Easy to distinguish call-to-action buttons that make sense.
+- Find out information about the staff and their experience.
+- Find out the location of Kitty Den.
 
 ### Site Owner Goals
-- Increase in the number of customers
-- Promote the business
-- Provide multiple ways for customers to contact Kitty Den
-- Display clear pricing information
-- Provide a simple breakdown of services on offer
-- Provide information about our staff and our history
+- Increase in the number of customers.
+- Promote the business and improve its digital footprint.
+- Provide multiple ways for customers to contact Kitty Den.
+- Display clear pricing information.
+- Provide a simple breakdown of services on offer.
+- Display information about our staff and our history.
 
 ### Developer Goals
-- Creating an excellent user experience for the target audience, cat owners looking for cat care services. 
-- Provide a simple and intuitive navigation system, quickly and easily find relevant information, such as services and contact detailss.
-- Create a visually appealing and reponsive design regardless of screen size.
-- Provide simple content that the user can skim read, ensuring accessibility.
+- Creating an excellent user experience for the target audience, cat owners looking for cat care services.
+- Provide a simple and intuitive navigation system, Thats makes finding relevant information quickly, such as services and contact details.
+- Create a visually appealing and responsive design regardless of screen size.
+- Provide content that the user can skim read, ensuring accessibility.
  
 ## User Experience
 
@@ -85,45 +85,44 @@ The primary goal is to provide a user-friendly experience for all visitors with 
 ### User Stories
 
 #### First-time User 
-1. As a first-time user, I want to know where the Kitty Den is located.
+1. As a first-time user, I want to know where the location of Kitty Den is.
 2. As a first-time user, I want to know what their customer think about them.
 3. As a first-time user, I want to know more about their services and prices.
 4. As a first-time user, I want to know about the staff at Kitty Den.
 5. As a first-time user, I want easily find out how to contact them.
-6. As a first-time user, I want to see what type of environment the cattery has to offer and if it is suitable, safe and stimulating for my cat.
+6. As a first-time user, I want to see what type of environment the cattery has and if it is suitable, safe and stimulating for my cat.
 
 #### Returning User
 7. As a returning user, I want to know the opening times.
 8. As a returning user, I want to find a phone number to call for a booking.
 9. As a returning user, I want to see the pricing.
-10. As a returning user, I want to know what the services are.
-11. As a returning user, I want to get directions to Kitty Den.
+10. As a returning user, I want to know what a reminder of the different services available.  
+11. As a returning user, I want to get directions to the Kitty Den.
 
 #### Site Owner 
-12. As the site owner, I want the urers to learn about our history.
+12. As the site owner, I want the users to learn about our history.
 13. As the site owner, I want the users to see the cost of our services and what each service includes.
-14. As the site owner, I want to make it easy for users to contact us via a variety of methods.
+14. As the site owner, I want to make it easy for users to contact us via different methods.
 15. As the site owner, I want the users to get introduced to our skilled staff.
 
 ## Design
 
 ### Design Choices
-I wanted to choose colours for Kitty Den from Megatron as he was the inspiration for the website. From a picture of him as a kitten, I picked out his beautiful blue eyes and pink nose as a starting point for the website colours.
+I wanted to choose colours for Kitty Den from Megatron's colouring, as he was the inspiration for the website. From a picture of him as a kitten, I picked out his beautiful blue eyes and pink nose as a starting point for the website colours.
 
-<details><summary>Inspiration Image - Megatron as a kitten</summary>
+<details><summary>Inspiration image - Megatron as a kitten</summary>
 <img src="docs/design/megatron-inspiration-picture.JPG">
 </details>
 
 ### Colours
 Using these colours as a base: 
-I chose an off-white for background to help reduce too much glare.
+I chose an off-white for the background to help reduce too much glare.
 
-I chose dark blue to allow for good contrast as the primary colour.
-Blue is also great for a care company as it gives the feeling of trustworthiness.
+I chose dark blue to allow for good contrast as the primary colour. Blue is also great for a care company as it gives the feeling of trustworthiness.
 
-I chose a bright dark pink to pop against the white background and the dark blue while giving a playful feel to the site.
+I chose a bright pink to pop against the white background and the dark blue while giving a playful feel to the site.
 
-Feeling I needed another colour, a bright orange that works as a complementary colour to the blue while working well with the pink was chosen. I used [ColorSpace](https://mycolor.space/) to help find the right orange for the pink. Orange is also great for getting the playful nature of the site across.
+Feeling I needed another colour, I chose bright orange as it's complementary to blue and works well with pink. I used [ColorSpace](https://mycolor.space/) to help find the right orange for the pink. Orange is also great for getting the playful nature of the site across.
 
 
 #### Branding Colours
@@ -141,15 +140,16 @@ The colours used on the site
 - Blue: primary colour: #2E266D
 - Pink: secondary colour: #DE1D8D
 - Orange: tertiary colour: #FF735C
-- Off White: white colour: #FAFAFA;
-- Overlay Off White: rgba(250, 250, 250, 0.7) - They off white colour at 70% opacity
+- Off-white: white colour: #FAFAFA;
+- Overlay off-white: rgba(250, 250, 250, 0.7) - The off-white colour at 70% opacity
 - White: #FFFFFF - Used for contrast against the pink and off-white background
-- Opaque Pink: rgba(222, 29, 141, 0.5) - Used for style elements to give a pop of colour
-- Light Orange: #ffd6d0 a shade of the orange tertiary colour to brighten areas.
+- Opaque pink: rgba(222, 29, 141, 0.5) - Used for style elements to give a pop of colour
+- Light orange: #ffd6d0 a shade of the orange tertiary colour to brighten areas.
 
-I tested multiple options of blue and pink before choosing them and building the full-colour scheme around them to ensure I was happy with the colours and felt I had the best colours to match the site's requirements while remaining accessible. 
+I tested multiple options of blue and pink before choosing them and building the full-colour scheme around them to ensure I was happy with the colours and felt I had the best colours to match the site's requirements while remaining accessible.
 
 I used the abode colour wheel and ColorSpace to decide on the final colours and test the contrast of the colours with the Abode's accessibility tools and tested on the live site with the WebAIM Wave tool.
+Branding Colour Website Colours
 
 <details><summary>Branding Colour Website Colours</summary>
 <img src="docs/design/website-colours.png">
@@ -158,7 +158,7 @@ I used the abode colour wheel and ColorSpace to decide on the final colours and 
 
 #### Colour Contrast Tests
 
-<details><summary>Blue font on off white background</summary>
+<details><summary>Blue font on off-white background</summary>
 <img src="docs/design/blue-font-contrast-test.png">
 </details>
 
@@ -170,7 +170,7 @@ I used the abode colour wheel and ColorSpace to decide on the final colours and 
 <img src="docs/design/light-orange-blue-font-contrast.png">
 </details>
 
-<details><summary>Off white font on pink background - failed test</summary>
+<details><summary>Off-white font on pink background - failed test</summary>
 <img src="docs/design/white-font-on-pink-fail-contrast.png">
 </details>
 
@@ -194,7 +194,7 @@ I picked these fonts as Indie Flower offers a playful and personal feel to the s
 The page's structure is in well-known, user-friendly and visually attractive way. On arriving, the user sees a recognisable navigation bar which on smaller displays is a hamburger menu to the right and the company's logo on the left. The website consists of six separate pages:
  
 - Homepage - with the following sections unique selling points, intro to Kitty Den and customer testimonials. 
-- About Us - Includes an intro into what they are, the history and conception of the company in a timeline style and a meet-the-staff carousel.
+- About Us - Includes an intro section about what they are, the history and conception of the company in a timeline style and a meet-the-staff carousel.
 - Gallery - With information about the resident cats and images showcasing cats enjoying Kitty Den services
 - Services - Simple and clean pricing cards with service detail included.
 - Contact Us - Map of Kitty Den's location, Contact form and other contact and business information. 
@@ -244,11 +244,11 @@ The page's structure is in well-known, user-friendly and visually attractive way
 The page consists of six pages and 16 features.
 
 ### Logo and Navigation Bar (Header)
-- Featured on all six pages
-- The navigation bar is designed to be fully responsive for all screen sizes. It changes to a toggler (hamburger menu) on smaller screens. The following links are included: About Us page, Services & Prices page, Gallery Page and the Contact Us page.
+- Features on all pages.
+- The navigation menu is designed to be fully responsive for all screen sizes. It changes to a toggler (hamburger menu) on smaller screens. The following links are included: About Us, Services & Prices, Gallery, and Contact Us pages.
 - Users can easily navigate the site with its user-friendly interface.
-- The link for the page the user is currently on is bold and underlined in pink.
-- On smaller devices, the hamburger menu animates to a pink cross button to easily identify how to close the menu.
+- The link for the page that the user is currently on is in bold and underlined in pink.
+- On smaller devices, the hamburger menu animates into a pink cross to identify how to close the menu.
 - The left includes Kitty Den's logo, which acts as a home button.
 - User stories covered: 3, 5, 6, 7, 8, 9, 10, 13, 14.
 
@@ -256,8 +256,8 @@ The page consists of six pages and 16 features.
 
 ### Hero Image / Landing Page
 - Header and tagline to make it clear what Kitty Den is and offers
-- The background image of Megatron in black and white with only his blue eyes and pink nose in colour to not distract too much from the text but reinforce the branding colours.
-- A clear call to action button to direct the users to the services on offer. 
+- The background image in black and white, with only blue eyes and a pink nose in colour, is used so it does not distract too much from the text and helps reinforce the branding colours.
+- Call-to-action button to help direct the users to the different services available.
 - User stories covered: 4, 14.
 
 ![Hero image](docs/features/home-hero-image.png)
@@ -279,22 +279,22 @@ The page consists of six pages and 16 features.
 ### Testimonials 
 - Featuring four customer reviews that highlight how using the Kitty Den has benefited them and their cat.
 - The profile picture of the reviewer with their cat helps the user relate to them.
-- All services are reviewed, introducing the users to the services.
-- User stories covered: 2, 6.
+- All services are reviewed, helping to introduce the users to the services.
+- User stories covered: 2, 3, 6.
 
 ![Testimonail section](docs/features/testimonials.png)
 
 ### Footer
 - Featured on all six pages.
 - Logo to reinforce what company page they are on.
-- Kitty Dens Address, lets the iser know where Kitty Den is located.
-- Social Media links 
+- Kitty Den's address lets the user know where Kitty Den is.
+- Social Media links
 - User story covered: 1.
 
 ![Footer](docs/features/footer.png)
 
 ### About Us - Kitty Den Description 
-- Introduces the user to Kitty Den and what they are in clear and easy-to-read text.
+- Introduces the user to Kitty Den and who they are in easy-to-read text.
 - A colourful hero image is used of a group of cats looking happy and playful.
 - On larger screens, there is an image of a cat playing with toys, but it is not visible on mobile view. It helps to create balance on the desktop screen.
 - User story covered: 6.
@@ -303,7 +303,7 @@ The page consists of six pages and 16 features.
 
 ### Kitty Den Timeline
 - The timeline lets the user discover more about Kitty Den and how the business started.
-- Each timeline point content is displayed in separate cards to make them easily distinguishable. 
+- Each timeline's point content is displayed in separate cards to make them easily distinguishable.
 - Each card has a title, a tagline and easy-to-read text to help the user follow Kitty Den's story easily.
 - Every card contains an image that relates to the title and text, providing a visual narrative for the user.
 - User stories covered: 12, 6.
@@ -312,35 +312,35 @@ The page consists of six pages and 16 features.
 
 ### Staff Carousel
 - Users can view the staff members who work at Kitty Den.
-- Shows the user what qualifications, skills and personalities of the staff.
+- Shows the user what qualifications, skills and personalities the staff have.
 - The carousel is a user-friendly feature that allows for easy browsing of staff members without taking up excessive vertical space on mobile devices, leading to an enhanced user experience.
 - Having profile images helps users become more familiar with the staff.
-- When viewing the profile on a desktop, cat ears and whiskers will appear when hovering over the image. This playful feature reinforces the company's fun nature. On smaller devices, the ears and whiskers are always visible.
+- When viewing the profile on a desktop, cat ears and whiskers will appear when hovering over the image. This feature reinforces the company's fun nature. On smaller devices, the ears and whiskers are always visible.
 - User stories covered: 4, 15.
 
 ![Staff carousel](docs/features/staff-carousel.png)
 
 ### Our Services and Prices Cards
 - The cards display the available services and their prices to the user.
-- A simple graphic to prevent distracting the user from the services information but allow for visual interest.
-- A call to action button linking to the contact us page allows the user to get to the Contact page quickly.
+- A simple graphic to prevent distracting the user from the services information but but creates visual interest.
+- A call-to-action button linking to the contact us page allows the user to get to the Contact page quickly.
 - A list of bullet points provides a clear and concise overview of each service's offerings, enabling the user to understand what each service offers.
 - User stories covered: 3, 9, 10, 13.
 
 ![Services and prices cards](docs/features/service-and-price-cards.png)
 
 ### Meet The Resident Cats
-- Shows the users what cats will already be at Kitty Den.
-- Gives users an insight as to what type of cats they are used to reassure the user they are used to looking after cats.
-- User story covered: 6
+- Allows the user to see what cats are already at the Kitty Den.
+- It gives the user an insight into the type of cats the staff are used to caring for, which reassures the user.
+- User story covered: 6.
 
 ![Resident cats](docs/features/resident-cats.png)
 
 ### Gallery
-- Allows the user to see inside the Kitty Den.
-- Shows the user what they can expect whilst their cat is in Kitty Den's care.
-- Shows the user cats using and enjoying the services.
-- User story covered: 6
+- Allows the users to see inside the Kitty Den.
+- Shows the users what their cat will experience while in Kitty Den's care.
+- Shows the user, cats using and enjoying the services.
+- User story covered: 6.
 
 ![Gallery](docs/features/gallery.png)
 
@@ -352,16 +352,16 @@ The page consists of six pages and 16 features.
 ![Google maps](docs/features/map.png)
 
 ### Contact Form
-- Allows the user to fill in a contact form to get contacted by Kitty Den for their enquiry
-- The service checkbox list allows the user to pick what services they are interested in
+- Allows the user to fill in a contact form to get contacted by Kitty Den for their enquiry.
+- The service checkbox list allows the user to pick what services they are interested in.
 - User stories covered: 5, 14.
 
 ![Contact form](docs/features/contact-form.jpg)
 
 ### Business Information and Other Contact Ways
-- Provides the user with more company information
-- Gives the user the address of Kitty Den
-- Shows the user the Kitty Den's main opening times
+- Provides the user with more company information.
+- Gives the user with Kitty Den's address.
+- Shows the user the Kitty Den's opening times.
 - Provides the user with a clickable contact number for Kitty Den to make it more convenient for them to call.
 - Provides the user with a clickable email address to send Kitty Den an email.
 - The purpose of adding this section is to give other contact options for the users.
@@ -443,7 +443,7 @@ The website was tested on the following devices:
 - iPhone 8
 - Google Pixel 7
 
-In addition, Google Chrome Developer Tools device toggle, was used to test the website for all available device options and the responsive website design tester.
+In addition, Google Chrome Developer Tools device toggle was used to test the website for all available device options and the responsive website design tester.
 
 ### Browser compatibility
 The website was tested on the following browsers:
@@ -457,7 +457,7 @@ The website was tested on the following browsers:
 
 #### First-time User
 
-1. As a first-time user, I want to know where the Kitty Den is located.
+1. As a first-time user, I want to know where the location of Kitty Den is.
 
 | Feature     | Action      |  Expected Result  | Actual Result |
 |    :----:      |    :----:   |   :----:   |  :----: |
@@ -533,7 +533,7 @@ Screenshot of phone number
 
 <br>
 
-6. As a first-time user, I want to see what type of environment the cattery has to offer and if it is suitable, safe and stimulating for my cat.
+6. As a first-time user, I want to see what type of environment the cattery has and if it is suitable, safe and stimulating for my cat.
 
 | Feature     | Action      |  Expected Result  | Actual Result |
 |    :----:      |    :----:   |   :----:   |  :----: |
@@ -585,7 +585,7 @@ Screenshot of phone number
 <img src="docs/userstory-testing/finding-the-price-and-services.gif">
 </details>
 
-10. As a returning user, I want to know what the services are.
+10. As a returning user, I want to know what a reminder of the different services available.
 
 | Feature     | Action      |  Expected Result  | Actual Result |
 |    :----:      |    :----:   |   :----:   |  :----: |
@@ -595,7 +595,7 @@ Screenshot of phone number
 <img src="docs/userstory-testing/finding-the-price-and-services.gif">
 </details>
 
-11. As a returning user, I want to get directions to Kitty Den.
+11. As a returning user, I want to get directions to the Kitty Den.
 
 | Feature     | Action      |  Expected Result  | Actual Result |
 |    :----:      |    :----:   |   :----:   |  :----: |
@@ -634,7 +634,7 @@ Screenshot of phone number
 
 <br>
 
-14. As the site owner, I want to make it easy for users to contact us via a variety of methods.
+14. As the site owner, I want to make it easy for users to contact us via different methods.
 
 | Feature     | Action      |  Expected Result  | Actual Result |
 |    :----:      |    :----:   |   :----:   |  :----: |
@@ -751,7 +751,7 @@ You can clone the repository by following these steps:
 
 ### Media
 
-Images where taken from [Canva](https://www.canva.com/), [Stock Adobe](https://stock.adobe.com/uk/), [Pexels](https://www.pexels.com/) and [Pixabay](https://pixabay.com/), credit to the below artists
+Images were taken from [Canva](https://www.canva.com/), [Stock Adobe](https://stock.adobe.com/uk/), [Pexels](https://www.pexels.com/) and [Pixabay](https://pixabay.com/), with credit to the below artists
 
 In order of appearance 
 
@@ -759,8 +759,8 @@ In order of appearance
 
 | Image     | Page  |  Source | Artist | Edit(s) |
 |    :----:   |    :----:   |   :----:   |  :----: | :----: |
-|  [Hero image](assets/images/hero-image-megatron.jpg) |  [index.html](https://hanmb17.github.io/CI_MS1_CATTERY/index.html)  |    [Pixabay](https://pixabay.com/)    |     [Annabel_P](https://pixabay.com/users/annabel_p-9567525/)    | Turned to grey scale then blue and pink added |
-|  [Cat in intro section](assets/images/ginger-cat-playing.png) |  [index.html](https://hanmb17.github.io/CI_MS1_CATTERY/index.html)  |    [Stock Adobe](https://stock.adobe.com/uk/)  |     [Nndanko](https://stock.adobe.com/uk/contributor/206034927/nndanko?load_type=author&prev_url=detail)    | Backgorund removed |
+|  [Hero image](assets/images/hero-image-megatron.jpg) |  [index.html](https://hanmb17.github.io/CI_MS1_CATTERY/index.html)  |    [Pixabay](https://pixabay.com/)    |     [Annabel_P](https://pixabay.com/users/annabel_p-9567525/)    | Turned to greyscale then blue and pink added |
+|  [Cat in intro section](assets/images/ginger-cat-playing.png) |  [index.html](https://hanmb17.github.io/CI_MS1_CATTERY/index.html)  |    [Stock Adobe](https://stock.adobe.com/uk/)  |     [Nndanko](https://stock.adobe.com/uk/contributor/206034927/nndanko?load_type=author&prev_url=detail)    | Background removed |
 |  [Max and Parsley](assets/images/max-and-parsley.jpg) |  [index.html](https://hanmb17.github.io/CI_MS1_CATTERY/index.html)  |    [Pexels](https://www.pexels.com/) |     [Altaf Shah](https://www.pexels.com/@altaf-shah-3143825/)    | None |
 |  [Sam and Smudge](assets/images/sam-and-smudge.jpg) |  [index.html](https://hanmb17.github.io/CI_MS1_CATTERY/index.html)  |    [Pexels](https://www.pexels.com/) |     [Deni's Fotografia](https://www.pexels.com/es-es/@denigrafias/)    | None |
 |  [Alex and Fluffy](assets/images/alex-and-fluffy.jpg) |  [index.html](https://hanmb17.github.io/CI_MS1_CATTERY/index.html)  |    [Pexels](https://www.pexels.com/) |     [cottonbro studio](https://www.pexels.com/@cottonbro/)    | None |
@@ -768,7 +768,7 @@ In order of appearance
 |  [About us hero image](assets/images/group-of-cats.jpg) |  [about.html](https://hanmb17.github.io/CI_MS1_CATTERY/about.html)  |    [Stock Adobe](https://stock.adobe.com/uk/) |     [Adogslifephoto](https://stock.adobe.com/uk/contributor/201666757/adogslifephoto?load_type=author&prev_url=detail)    | None |
 |  [Cat playing with tunnel](assets/images/cat-playing-with-ball-and-tunnel.png) |  [about.html](https://hanmb17.github.io/CI_MS1_CATTERY/about.html)  |    [Stock Adobe](https://stock.adobe.com/uk/) |     [Africa Studio](https://stock.adobe.com/uk/contributor/293313/africa-studio?load_type=author&prev_url=detail)    | Background removed and tunnel colour change|
 |  [Timeline image 1 - sad cat](assets/images/timeline-image-sad-megatron.jpg) |  [about.html](https://hanmb17.github.io/CI_MS1_CATTERY/about.html)  |    [Stock Adobe](https://stock.adobe.com/uk/) |  [IBenmAn](https://stock.adobe.com/uk/contributor/207789813/ibenman?load_type=author&prev_url=detail)    | None |
-|  [Timeline image 2 - cat in bed](assets/images/timeline-image-cat-in-bed.jpg) |  [about.html](https://hanmb17.github.io/CI_MS1_CATTERY/about.html)  |    [Stock Adobe](https://stock.adobe.com/uk/) |  [Standret](https://stock.adobe.com/uk/contributor/202439883/standret?load_type=author&prev_url=detail) [Totojang1977](https://stock.adobe.com/uk/contributor/203767798/totojang1977?load_type=author&prev_url=detail)   | Images fused togther - cat placed in bed and backgrounds removed |
+|  [Timeline image 2 - cat in bed](assets/images/timeline-image-cat-in-bed.jpg) |  [about.html](https://hanmb17.github.io/CI_MS1_CATTERY/about.html)  |    [Stock Adobe](https://stock.adobe.com/uk/) |  [Standret](https://stock.adobe.com/uk/contributor/202439883/standret?load_type=author&prev_url=detail) [Totojang1977](https://stock.adobe.com/uk/contributor/203767798/totojang1977?load_type=author&prev_url=detail)   | Images fused together - cat placed in bed and backgrounds removed |
 |  [Timeline image 3 - cats on climbing wall](assets/images/timeline-image-three-cats-on-climbing-wall.jpg) |  [about.html](https://hanmb17.github.io/CI_MS1_CATTERY/about.html)  |  [Pexels](https://www.pexels.com/)   |  [Arina Krasnikova](https://www.pexels.com/@arina-krasnikova/)    | None |
 |  [Timeline image 4 - vet with cat](assets/images/timeline-image-vet-with-cat.jpg) |  [about.html](https://hanmb17.github.io/CI_MS1_CATTERY/about.html)  |    [Stock Adobe](https://stock.adobe.com/uk/) |  [Yakobchuk Olena](https://stock.adobe.com/uk/contributor/205191830/yakobchuk-olena?load_type=author&prev_url=detail)    | None |
 |  [Timeline image 5 - happy cat](assets/images/timeline-image-happy-cat.jpg) |  [about.html](https://hanmb17.github.io/CI_MS1_CATTERY/about.html)  |    [Stock Adobe](https://stock.adobe.com/uk/) |  [ksena32](https://stock.adobe.com/uk/contributor/201380829/ksena32?load_type=author&prev_url=detail)   | None |
@@ -797,22 +797,22 @@ In order of appearance
 ### Code 
 Credits for code snippets used in order of appearance
 
-- The HTML code for the [Navbar with toggler](https://getbootstrap.com/docs/5.3/components/navbar/) was taken from Boostrap v5.3 documentation snippet - Hamburger button spans modified.
-- The HTML code for the [Timeline](https://mdbootstrap.com/docs/standard/extended/timeline/) was from MD Bootstrap - altered to fit the sits reponsive requirements.
-- The CSS code for the [Timeline line an timeline circles](https://www.w3schools.com/howto/howto_css_timeline.asp) was taken from W3Schools and modified as needed.
+- The HTML code for the [Navbar with toggler](https://getbootstrap.com/docs/5.3/components/navbar/) was taken from Bootstrap v5.3 documentation snippet - Hamburger button spans modified.
+- The HTML code for the [Timeline](https://mdbootstrap.com/docs/standard/extended/timeline/) was from MD Bootstrap - altered to fit the site's responsive requirements.
+- The CSS code for the [Timeline line and timeline circles](https://www.w3schools.com/howto/howto_css_timeline.asp) was taken from W3Schools and modified as needed.
 - The HTML code for the [carousel](https://getbootstrap.com/docs/5.3/components/carousel/) was taken from Boostrap v5.3 documentation.
-- The Javascript code for the [reponsive multi item carousel](https://www.codeply.com/p/0CWffz76Q9) was taken from a Codeply by Skelly.
-- The HTML for the [cards base](https://getbootstrap.com/docs/5.3/components/card/) was taken from Boostrap v5.3 documentation.
-- The Form dump was created using Code institutes form dump from Love Running project in the CSS learning module.
-- 404 page was build using description on [GitHub Docs](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site)
-- The CSS for making the webpage [strech to min height of 100vh](https://dev.to/fenok/stretching-body-to-full-viewport-height-the-missing-way-2ghd) was from a blog post on DEV by Leonid Fenko.
+- The Javascript code for the [responsive multi-item carousel](https://www.codeply.com/p/0CWffz76Q9) was taken from a Codeply by Skelly.
+- The HTML for the [cards](https://getbootstrap.com/docs/5.3/components/card/) was taken from Bootstrap v5.3 documentation.
+- The Form dump was created using the Code Institutes form dump from the Love Running project in the CSS learning module.
+- 404 page was built using the description on [GitHub Docs](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site)
+- The CSS for making the webpage [stretch to min height of 100vh](https://dev.to/fenok/stretching-body-to-full-viewport-height-the-missing-way-2ghd) was from a blog post on DEV by Leonid Fenko.
 
 ### Acknowledgements
 
 I would like to take the opportunity to thank;
 
-- My mentor, Mo Shami, for his support and excellant guidance throughtout this project.
-- Iris Smok from Code Institute my Cohort Faciliator for her wonderful advice during our weekly stand ups.
-- My partner, Pete Williams how has kept me fed, watered and helped with testing.
-- My work colleages at EWE Buildiing Plastics, who tested the site and offered great feedback
-- My cat, megatron who inspired me to make this site and for his company while making this site.
+- My mentor, Mo Shami, for his support and excellent guidance throughout this project.
+- Iris Smok from Code Institute, my Cohort facilitator, for her wonderful advice during our weekly stand-ups.
+- My partner, Pete Williams, who kept me fed and watered and helped with testing.
+- My work colleagues at EWE Building Plastics, who tested the site and offered great feedback
+- My cat, Megatron, who was the inspiration for the website and for his company while I worked on this project.
