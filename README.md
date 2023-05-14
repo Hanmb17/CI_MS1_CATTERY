@@ -62,7 +62,7 @@ The primary goal is to provide a user-friendly experience for all visitors with 
 
 ### Developer Goals
 - Creating an excellent user experience for the target audience, cat owners looking for cat care services.
-- Provide a simple and intuitive navigation system, Thats makes finding relevant information quickly, such as services and contact details.
+- Provide a simple and intuitive navigation system that makes finding relevant information, such as services and contact details, quick and easy.
 - Create a visually appealing and responsive design regardless of screen size.
 - Provide content that the user can skim read, ensuring accessibility.
  
@@ -86,10 +86,10 @@ The primary goal is to provide a user-friendly experience for all visitors with 
 
 #### First-time User 
 1. As a first-time user, I want to know where the location of Kitty Den is.
-2. As a first-time user, I want to know what their customer think about them.
+2. As a first-time user, I want to know what their customer thinks about them.
 3. As a first-time user, I want to know more about their services and prices.
 4. As a first-time user, I want to know about the staff at Kitty Den.
-5. As a first-time user, I want easily find out how to contact them.
+5. As a first-time user, I want to easily find out how to contact them.
 6. As a first-time user, I want to see what type of environment the cattery has and if it is suitable, safe and stimulating for my cat.
 
 #### Returning User
@@ -241,7 +241,7 @@ The page's structure is in well-known, user-friendly and visually attractive way
 - [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/)
 
 ## Features
-The page consists of six pages and 16 features.
+The site consists of six pages and 16 features.
 
 ### Logo and Navigation Bar (Header)
 - Features on all pages.
@@ -270,7 +270,7 @@ The page consists of six pages and 16 features.
 ![Unique selling points](docs/features/usps-section.png)
 
 ### Intro Section
-- Introduces Kitty Den to the user and what they are.
+- Introduces Kitty Den and the services to the user.
 - The Call to action button allows the user to go straight to the contact us page, helping to make conversions quicker.
 - User stories covered: 4, 6, 14.
 
@@ -294,7 +294,7 @@ The page consists of six pages and 16 features.
 ![Footer](docs/features/footer.png)
 
 ### About Us - Kitty Den Description 
-- Introduces the user to Kitty Den and who they are in easy-to-read text.
+- Introduces the user to Kitty Den and explains who they are in easy-to-read text.
 - A colourful hero image is used of a group of cats looking happy and playful.
 - On larger screens, there is an image of a cat playing with toys, but it is not visible on mobile view. It helps to create balance on the desktop screen.
 - User story covered: 6.
@@ -322,7 +322,7 @@ The page consists of six pages and 16 features.
 
 ### Our Services and Prices Cards
 - The cards display the available services and their prices to the user.
-- A simple graphic to prevent distracting the user from the services information but but creates visual interest.
+- A simple graphic to prevent distracting the user from the services information but creates visual interest.
 - A call-to-action button linking to the contact us page allows the user to get to the Contact page quickly.
 - A list of bullet points provides a clear and concise overview of each service's offerings, enabling the user to understand what each service offers.
 - User stories covered: 3, 9, 10, 13.
@@ -360,7 +360,7 @@ The page consists of six pages and 16 features.
 
 ### Business Information and Other Contact Ways
 - Provides the user with more company information.
-- Gives the user with Kitty Den's address.
+- Gives the user Kitty Den's address.
 - Shows the user the Kitty Den's opening times.
 - Provides the user with a clickable contact number for Kitty Den to make it more convenient for them to call.
 - Provides the user with a clickable email address to send Kitty Den an email.
@@ -393,7 +393,6 @@ contactus.html - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fhanmb1
 
 404.html - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fhanmb17.github.io%2FCI_MS1_CATTERY%2F404.html)
 
-
 ### CSS Validation
 The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website.
 
@@ -401,10 +400,11 @@ When using the URL in my index.html, 17 Parse Errors and 8 Value Error: color In
 
 style.css - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fhanmb17.github.io%2FCI_MS1_CATTERY%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-When validating pasting my custom CSS, it passed with no errors and flagged some warnings. One for the checkbox border and background colour - as this is styling I have left them as they are. Some for the moz and webkit transitions and transforms used, 1 for variables not checked and one warning for the Google fonts import used.
+When validating my custom CSS, it passed with no errors and flagged some warnings. One for the checkbox border and background colour - as this is styling I have left them as they are. Some for the moz and webkit transitions and transforms used, 1 for variables not checked and one warning for the Google fonts import used.
 
-style.css - [Results](https://jigsaw.w3.org/css-validator/validator)
-
+<details><summary>Style.css - Results</summary>
+<img src="docs/validation/css-vaildator-results.png">
+</details>
 
 ### Accessibility
 The WAVE WebAIM web accessibility evaluation tool was used to ensure the website met high accessibility standards. All pages pass with 0 errors.
@@ -422,19 +422,19 @@ contactus.html - [Results](https://wave.webaim.org/report#/https://hanmb17.githu
 404.html - [Results](https://wave.webaim.org/report#/https://hanmb17.github.io/CI_MS1_CATTERY/404.html)
 
 ### Performance 
-Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website pages. All pages perform well.
+PageSpeed Insights a tool by Google was used to test the performance of the website pages. All pages perform well.
 
-index.html - [Results](https://pagespeed.web.dev/analysis/https-hanmb17-github-io-CI_MS1_CATTERY-index-html/9gto311wmm?form_factor=desktop)
+index.html - [Results](https://pagespeed.web.dev/analysis/https-hanmb17-github-io-CI_MS1_CATTERY-index-html/kbtgpmcl2m?form_factor=desktop)
 
-about.html - [Results](https://pagespeed.web.dev/analysis/https-hanmb17-github-io-CI_MS1_CATTERY-about-html/n0jtyrecrt?form_factor=desktop)
+about.html - [Results](https://pagespeed.web.dev/analysis/https-hanmb17-github-io-CI_MS1_CATTERY-about-html/a1kxw4597n?form_factor=desktop)
 
-services.html - [Results](https://pagespeed.web.dev/analysis/https-hanmb17-github-io-CI_MS1_CATTERY-services-html/75rhhakrec?form_factor=desktop)
+services.html - [Results](https://pagespeed.web.dev/analysis/https-hanmb17-github-io-CI_MS1_CATTERY-services-html/kgtkw6tdw6?form_factor=desktop)
 
-gallery.html - [Results](https://pagespeed.web.dev/analysis/https-hanmb17-github-io-CI_MS1_CATTERY-gallery-html/3ed5r8n46h?form_factor=desktop)
+gallery.html - [Results](https://pagespeed.web.dev/analysis/https-hanmb17-github-io-CI_MS1_CATTERY-gallery-html/jl63iumug0?form_factor=desktop)
 
-contactus.html - [Results](https://pagespeed.web.dev/analysis/https-hanmb17-github-io-CI_MS1_CATTERY-contactus-html/fmlhc4rsrn?form_factor=desktop)
+contactus.html - [Results](https://pagespeed.web.dev/analysis/https-hanmb17-github-io-CI_MS1_CATTERY-contactus-html/qza9kmr6c1?form_factor=desktop)
 
-404.html - [Results](https://pagespeed.web.dev/analysis/https-hanmb17-github-io-CI_MS1_CATTERY-404-html/99ounqxrci?form_factor=desktop)
+404.html - [Results](https://pagespeed.web.dev/analysis/https-hanmb17-github-io-CI_MS1_CATTERY-404-html/bi7tfsot6q?form_factor=desktop)
 
 ### Performing tests on various devices
 The website was tested on the following devices:
@@ -451,7 +451,6 @@ The website was tested on the following browsers:
 - Apple Safari
 - Mozilla Firefox
 - Microsoft Edge
-
 
 ### Testing user stories
 
@@ -472,7 +471,7 @@ The website was tested on the following browsers:
 <img src="docs/userstory-testing/finding-the-address-on-the-footer.gif">
 </details>
 
-2. As a first-time user, I want to know what their customer think about them.
+2. As a first-time user, I want to know what their customer thinks about them.
 
 | Feature     | Action      |  Expected Result  | Actual Result |
 |    :----:      |    :----:   |   :----:   |  :----: |
@@ -481,8 +480,6 @@ The website was tested on the following browsers:
 <details><summary>Video of users finding the testomonials</summary>
 <img src="docs/userstory-testing/finding-the-testimonials.gif">
 </details>
-
-<br>
 
 3. As a first-time user, I want to know more about their services and prices.
 
@@ -494,8 +491,6 @@ The website was tested on the following browsers:
 <img src="docs/userstory-testing/finding-the-price-and-services.gif">
 </details>
 
-<br>
-
 4. As a first-time user, I want to know about the staff at Kitty Den.
 
 | Feature     | Action      |  Expected Result  | Actual Result |
@@ -506,9 +501,7 @@ The website was tested on the following browsers:
 <img src="docs/userstory-testing/finding-the-staff.gif">
 </details>
 
-<br>
-
-5. As a first-time user, I want easily find out how to contact them.
+5. As a first-time user, I want to easily find out how to contact them.
 
 | Feature     | Action      |  Expected Result  | Actual Result |
 |    :----:      |    :----:   |   :----:   |  :----: |
@@ -530,8 +523,6 @@ Screenshot of email address
 Screenshot of phone number
 <img src="docs/userstory-testing/phone-number.png">
 </details>
-
-<br>
 
 6. As a first-time user, I want to see what type of environment the cattery has and if it is suitable, safe and stimulating for my cat.
 
@@ -558,8 +549,6 @@ Screenshot of opening times
 <img src="docs/userstory-testing/opening-times.png">
 </details>
 
-<br>
-
 8. As a returning user, I want to find a phone number to call for a booking
 
 | Feature     | Action      |  Expected Result  | Actual Result |
@@ -573,9 +562,7 @@ Screenshot of phone number
 <img src="docs/userstory-testing/phone-number.png">
 </details>
 
-<br>
-
-8. As a returning user, I want to see the pricing.
+9. As a returning user, I want to see the pricing.
 
 | Feature     | Action      |  Expected Result  | Actual Result |
 |    :----:      |    :----:   |   :----:   |  :----: |
@@ -605,8 +592,6 @@ Screenshot of phone number
 <img src="docs/userstory-testing/finding-the-map.gif">
 </details>
 
-<br>
-
 #### Site Owner 
 
 12. As the site owner, I want the urers to learn about our history.
@@ -615,12 +600,9 @@ Screenshot of phone number
 |    :----:      |    :----:   |   :----:   |  :----: |
 | Timeline | Navigate to the About Us page and locates timeline | Locates to the timeline| Works as expected |
 
-
 <details><summary>Video of users finding the timeline</summary>
 <img src="docs/userstory-testing/finding-the-timeline.gif">
 </details>
-
-<br>
 
 13. As the site owner, I want the users to see the cost of our services and what each service includes.
 
@@ -631,8 +613,6 @@ Screenshot of phone number
 <details><summary>Video of users find the price and service cards</summary>
 <img src="docs/userstory-testing/finding-the-price-and-services.gif">
 </details>
-
-<br>
 
 14. As the site owner, I want to make it easy for users to contact us via different methods.
 
@@ -656,8 +636,6 @@ Screenshot of email address
 Screenshot of phone number
 <img src="docs/userstory-testing/phone-number.png">
 </details>
-
-<br>
 
 15. As the site owner, I want the users to get introduced to our skilled staff.
 
