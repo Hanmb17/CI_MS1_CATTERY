@@ -434,9 +434,10 @@ Mobile Results
 </details>
 <details><summary>about.html</summary>
 Desktop Results 
-<img src="docs/lighthouse-results/home-page-lighthouse-results-desktop.png">
+
+<img src="docs/lighthouse-results/aboutus-page-lighthouse-results-desktop.png">
 Mobile Results
-<img src="docs/lighthouse-results/home-page-lighthouse-results-mobile.PNG">
+<img src="docs/lighthouse-results/aboutus-page-lighthouse-results-mobile.PNG">
 </details>
 <details><summary>services.html</summary>
 Desktop Results 
