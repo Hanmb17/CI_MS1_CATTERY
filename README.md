@@ -422,7 +422,50 @@ contactus.html - [Results](https://wave.webaim.org/report#/https://hanmb17.githu
 404.html - [Results](https://wave.webaim.org/report#/https://hanmb17.github.io/CI_MS1_CATTERY/404.html)
 
 ### Performance 
-PageSpeed Insights a tool by Google was used to test the performance of the website pages. All pages perform well.
+
+#### Lighthouse
+On testing the pages Ligthouse through the Google developer tools I found all pages perfromed well for both mobile and desktop.
+
+<details><summary>index.html</summary>
+Desktop Results 
+<img src="docs/lighthouse-results/home-page-lighthouse-results-desktop.png">
+Mobile Results
+<img src="docs/lighthouse-results/home-page-lighthouse-results-mobile.PNG">
+</details>
+<details><summary>about.html</summary>
+Desktop Results 
+<img src="docs/lighthouse-results/home-page-lighthouse-results-desktop.png">
+Mobile Results
+<img src="docs/lighthouse-results/home-page-lighthouse-results-mobile.PNG">
+</details>
+<details><summary>services.html</summary>
+Desktop Results 
+<img src="docs/lighthouse-results/services-page-lighthouse-results-desktop.png">
+Mobile Results
+<img src="docs/lighthouse-results/services-page-lighthouse-results-mobile.png">
+</details>
+<details><summary>gallery.html</summary>
+Desktop Results 
+<img src="docs/lighthouse-results/gallery-page-lighthouse-results-desktop.png">
+Mobile Results
+<img src="docs/lighthouse-results/gallery-page-lighthouse-results-desktop.png">
+</details>
+<details><summary>contactus.html</summary>
+Desktop Results 
+<img src="docs/lighthouse-results/contactus-page-lighthouse-results-desktop.png">
+Mobile Results
+<img src="docs/lighthouse-results/contactus-page-lighthouse-results-mobile.png">
+</details>
+<details><summary>404.html</summary>
+Desktop Results 
+<img src="docs/lighthouse-results/404-page-lighthouse-results-desktop.png">
+Mobile Results
+<img src="docs/lighthouse-results/404-page-lighthouse-results-mobile.png">
+</details>
+
+
+#### PageSpeed Test
+PageSpeed Insights a tool by Google was used to test the performance of the website pages. All pages perform well overall however there is room for improvement for the mobile performance, such as serving the images in a WebP format.
 
 index.html - [Results](https://pagespeed.web.dev/analysis/https-hanmb17-github-io-CI_MS1_CATTERY-index-html/kbtgpmcl2m?form_factor=desktop)
 
