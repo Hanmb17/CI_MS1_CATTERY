@@ -651,9 +651,9 @@ Screenshot of phone number
 
 1. A horizontal scroll bar appears on desktop and mobile devices.
 
-On testing the site on different devices and through Google developer tools, I noticed a horizontal scroll bar was on occurring. None of my added content appeared to be overflowing, but with Google Developer tools, I spotted that the .row class from Bootstrap was causing this issue.
+On testing the site on different devices and through Google developer tools, I noticed a horizontal scroll bar was appearing. None of my added content appeared to be overflowing, but with the Google Developer tools, I spotted that the .row class from Bootstrap was causing this issue.
 
-I fixed this by adding an m-0 or g-0 class to the div element containing the row class providing an easy fix for the issue as it removed the horizontal margins the row was adding. 
+I fixed this by adding an m-0 or g-0 class to the div element containing the .row class, providing an easy fix for the issue as it removed the horizontal margins the .row was adding. 
 
 <details><summary>Before fix screenshot</summary>
 <img src="docs/bugs/scroll-bar-on-mobile.jpg">
