@@ -308,7 +308,7 @@ The site consists of six pages and 16 features.
 - Every card contains an image that relates to the title and text, providing a visual narrative for the user.
 - User stories covered: 12, 6.
 
-![Timeline](docs/features/about-us-section.png)
+![Timeline](docs/features/timeline.jpg)
 
 ### Staff Carousel
 - Users can view the staff members who work at Kitty Den.
