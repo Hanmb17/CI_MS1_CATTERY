@@ -426,44 +426,42 @@ contactus.html - [Results](https://wave.webaim.org/report#/https://hanmb17.githu
 #### Lighthouse
 On testing the pages Ligthouse through the Google developer tools I found all pages perfromed well for both mobile and desktop.
 
-<details><summary>index.html</summary>
-Desktop Results 
+<details><summary>index.html - Desktop Results</summary>
 <img src="docs/lighthouse-results/home-page-lighthouse-results-desktop.png">
-Mobile Results
+</details>
+<details><summary>index.html - Mobile Results</summary>
 <img src="docs/lighthouse-results/home-page-lighthouse-results-mobile.PNG">
 </details>
-<details><summary>about.html</summary>
-Desktop Results 
-
+<details><summary>about.html - Desktop Results</summary>
 <img src="docs/lighthouse-results/aboutus-page-lighthouse-results-desktop.png">
-Mobile Results
+</details>
+<details><summary>about.html - Mobile Results</summary>
 <img src="docs/lighthouse-results/aboutus-page-lighthouse-results-mobile.PNG">
 </details>
-<details><summary>services.html</summary>
-Desktop Results 
+<details><summary>services.html - Desktop Results</summary>
 <img src="docs/lighthouse-results/services-page-lighthouse-results-desktop.png">
-Mobile Results
+</details>
+<details><summary>services.html - Mobile Results</summary>
 <img src="docs/lighthouse-results/services-page-lighthouse-results-mobile.png">
 </details>
-<details><summary>gallery.html</summary>
-Desktop Results 
-<img src="docs/lighthouse-results/gallery-page-lighthouse-results-desktop.png">
-Mobile Results
+<details><summary>gallery.html - Desktop Results</summary>
 <img src="docs/lighthouse-results/gallery-page-lighthouse-results-desktop.png">
 </details>
-<details><summary>contactus.html</summary>
-Desktop Results 
+<details><summary>gallery.html - Mobile Results</summary>
+<img src="docs/lighthouse-results/gallery-page-lighthouse-results-mobile.PNG">
+</details>
+<details><summary>contactus.html - Desktop Results</summary> 
 <img src="docs/lighthouse-results/contactus-page-lighthouse-results-desktop.png">
-Mobile Results
+</details>
+<details><summary>contactus.html - Mobile Results</summary> 
 <img src="docs/lighthouse-results/contactus-page-lighthouse-results-mobile.png">
 </details>
-<details><summary>404.html</summary>
-Desktop Results 
+<details><summary>404.html - Desktop Results</summary>
 <img src="docs/lighthouse-results/404-page-lighthouse-results-desktop.png">
-Mobile Results
+</details>
+<details><summary>404.html - Mobile Results</summary>
 <img src="docs/lighthouse-results/404-page-lighthouse-results-mobile.png">
 </details>
-
 
 #### PageSpeed Test
 PageSpeed Insights a tool by Google was used to test the performance of the website pages. All pages perform well overall however there is room for improvement for the mobile performance, such as serving the images in a WebP format.
